@@ -3,6 +3,13 @@ Introduction about your project, describe the problem, and your solution. Projec
 
 In this project students should work in groups of 3 to implement a fully functioning sequential circuit. This sequential circuit should work as a 24-hour digital clock, a competition digital circuit, or 4-way light control digital circuit depending on the student's choice. The idea of the three projects will be explained in the lab. To design the circuit, Logisim should be used. Students should submit their software implementation, presentation and the report here. 
 
+Students should include the contribution percentage of each group member. 
+Example:
+- Ahmed 35%
+- Fahad 35%
+- Ali 30%
+
+
 ## Group Members
 [comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
 - [First Member](https://github.com/first-member)
