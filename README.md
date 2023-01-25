@@ -28,6 +28,7 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 #### Problem Statement
 This circuit solves the priority problems in competitions. For example: If we have 4 competitors and each of them has a button, and a question is asked, then the first competitor who presses the button will have his number appear on the screen. Students are asked to design, and implement the required circuit.
 
+
 ### Traffic Light
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
