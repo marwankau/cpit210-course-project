@@ -5,9 +5,9 @@ In this project students should work in groups of 3 to implement a fully functio
 
 ## Group Members
 [comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
-- [First Member](https://github.com/first-member)
-- [Second one](https://github.com/second-member)
-- ...
+- [Turki Naif Alghamdi](https://github.com/first-member)
+- [Ahmad Fahad Alagbari](https://github.com/second-member)
+- [Yousef Hashem Bogari] (http://github.com/usiifo)
 
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
