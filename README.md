@@ -12,7 +12,7 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Suhaib
+- Suhaib  
 - Abdulaziz 
 - Meshal
 
@@ -33,7 +33,7 @@ This circuit solves the priority problems in competitions. For example: If we ha
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
 
-## Selected Topic
+## Selected Topics
 1. Traffic Light
 2. Competition
 3. Buffer
