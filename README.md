@@ -5,16 +5,16 @@ In this project students should work in groups of 3 to implement a fully functio
 
 ## Group Members
 [comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
-- [First Member](https://github.com/first-member)
-- [Second one](https://github.com/second-member)
-- ...
+- [Turki Baatta](https://github.com/TurkiBaatta)
+- [Abdullah Al-Sharif](https://github.com/second-member)
+- [Yazen](https://github.com/Yzn80)
 
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Ahmed 35%
-- Fahad 35%
-- Ali 30%
+- Turki 34%
+- Abdullah 33%
+- Yazen 33%
 
 ## Circuit Project topics:
 
@@ -32,6 +32,11 @@ This circuit solves the priority problems in competitions. For example: If we ha
 ### Traffic Light
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
+
+### Selected Topic:
+1. Traffic Light
+2. Comptition
+3. Buffer
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
