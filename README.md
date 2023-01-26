@@ -33,6 +33,11 @@ This circuit solves the priority problems in competitions. For example: If we ha
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
 
+### Selected Topic
+1. Traffic Light
+1. Buffer
+1. Competition
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
