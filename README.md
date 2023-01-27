@@ -9,9 +9,9 @@ In this project students should work in groups of 3 to implement a fully functio
 - [Ahmad Fahad Alagbari](https://github.com/Memeedo)
 - [Yousef Hashem Bogari](http://github.com/usiifo)
 
-1- Traffic Light
-1- Competition
-1- Buffer
+1. Traffic Light
+1. Competition
+1. Buffer
 
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
