@@ -8,7 +8,7 @@ In this project students should work in groups of 3 to implement a fully functio
 - [Turki Naif Alghamdi](https://github.com/TurkiNAlghamdii)
 - [Ahmad Fahad Alagbari](https://github.com/Memeedo)
 - [Yousef Hashem Bogari](http://github.com/usiifo)
-
+### Selected topic: 
 1. Traffic Light
 1. Competition
 1. Buffer
@@ -16,9 +16,9 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Ahmed 35%
-- Fahad 35%
-- Ali 30%
+- Yousef Bogari 34%
+- Ahmed Alagbari 33%
+- Turki AlGhamdi 33%
 
 ## Circuit Project topics:
 
