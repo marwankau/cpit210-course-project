@@ -12,21 +12,15 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Ahmed 35%
-- Fahad 35%
-- Ali 30%
+- saud
+- saher
+- abdulkarim
 
 ## Circuit Project topics:
 
 [comment]: <> (Choose one of the following, your choice need to be accepted by Instructor)
 
-### Buffer
-#### Problem Statement
-This circuit solves the reading and writing to buffer. For example: If we have input 4, we want to write it, buffer works like memory and stores it there when we click the write button. In case when we want to read from the buffer, by pressing read button, it starts reading from the first entry sored in the buffer. Buffer is nothing but a temporary memory. In addition, we can clear the contents from the buffer. Students are asked to design, and implement the required circuit.
 
-### Competition
-#### Problem Statement
-This circuit solves the priority problems in competitions. For example: If we have 4 competitors and each of them has a button, and a question is asked, then the first competitor who presses the button will have his number appear on the screen. Students are asked to design, and implement the required circuit.
 
 ### Traffic Light
 #### Problem Statement
