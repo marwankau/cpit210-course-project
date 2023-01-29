@@ -7,7 +7,7 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
 - [Turki Naif Alghamdi](https://github.com/TurkiNAlghamdii)
 - [Ahmad Fahad Alagbari](https://github.com/Memeedo)
-- [Yousef Hashem Bogari](http://github.com/usiifo)
+- [Yousef hisham Bogari](http://github.com/usiifo)
 ### Selected topic: 
 1. Traffic Light
 1. Competition
