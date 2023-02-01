@@ -47,8 +47,31 @@ This circuit solves the priority problems in competitions. For example: If we ha
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
 
+
+![Buffer/Queue logic expression](/images/traffic-1.png)
+
+### Finite State Machine for Traffic Light Control
+![Buffer/Queue logic expression](/images/traffic-2.png)
+
+### Transition Table
+![Buffer/Queue logic expression](/images/traffic-3.png)
+
+### Implements D's using 8x1 Multiplixers:
+![Buffer/Queue logic expression](/images/traffic-4.png)
+
+### Logic Circuit part 1
+![Buffer/Queue logic expression](/images/traffic-5.png)
+
+### Logic Circuit part 2
+![Buffer/Queue logic expression](/images/traffic-6.png)
+
 ### Selected Topic
 1. Traffic Light
+2. Traffic Light
+3. Traffic Light
+4. Traffic Light
+5. Traffic Light
+6. Traffic Light
 1. Buffer
 1. Competition
 
