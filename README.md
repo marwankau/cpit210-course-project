@@ -67,11 +67,6 @@ This circuit is used to control a four-way traffic light control system. In what
 
 ### Selected Topic
 1. Traffic Light
-2. Traffic Light
-3. Traffic Light
-4. Traffic Light
-5. Traffic Light
-6. Traffic Light
 1. Buffer
 1. Competition
 
