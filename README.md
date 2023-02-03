@@ -38,10 +38,9 @@ The following circuit diagram is sample of Queue/Buffer circuit.
 ![Buffer/Queue logic expression](/images/buffer-circuit.png)
 
 
-### Competition
+### Calculator
 #### Problem Statement
-This circuit solves the priority problems in competitions. For example: If we have 4 competitors and each of them has a button, and a question is asked, then the first competitor who presses the button will have his number appear on the screen. Students are asked to design, and implement the required circuit.
-
+This circuit is used to perform three arthimatic operations Addition, Subtraction, and Multiplication of two numbers with 8 bits. Students required to build required components from the basic logic gates (AND, OR, XOR, NOT gates). Implementation should contains design of half adder, full adder, and 8 bits parallel binary adder. Subtraction and Multiplier should implemented using full adder as described in following diagrams. You are not allow to use pre-designed Adder, Subtractor, and Multiplier, you mush build it from scratch.
 
 ### Traffic Light
 #### Problem Statement
