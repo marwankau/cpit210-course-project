@@ -40,34 +40,56 @@ The following circuit diagram is sample of Queue/Buffer circuit.
 
 ### Calculator
 #### Problem Statement
-This circuit is used to perform three arthimatic operations Addition, Subtraction, and Multiplication of two numbers with 8 bits. Students required to build required components from the basic logic gates (AND, OR, XOR, NOT gates). Implementation should contains design of half adder, full adder, and 8 bits parallel binary adder. Subtraction and Multiplier should implemented using full adder as described in following diagrams. You are not allow to use pre-designed Adder, Subtractor, and Multiplier, you mush build it from scratch.
+This circuit is used to perform three arthimatic operations Addition, Subtraction, and Multiplication of two numbers with 8 bits. Students required to build required components from the basic logic gates (AND, OR, XOR, NOT gates). Implementation should contains design of half adder, full adder, and 8 bits parallel binary adder. Subtraction and Multiplier should implemented using full adder as described in following diagrams. You are not allow to use pre-designed Adder, Subtractor, and Multiplier, you mush build them from scratch.
+
+![Calculator, not allowed components](/images/calculator/not-accepted-arthimatic-components.png)
+
+Implementation of Half Adder:
+
+![Calculator, half adder implementation](/images/calculator/half-adder.png)
+
+Implementation of Full Adder using combined Half-Adder:
+
+![Calculator, full adder implementation](/images/calculator/full-adder.png)
+
+Implementation of 4-bit parallel binary Adder using compination of 4 Full-Adder:
+
+![Calculator, 4-bit parallel binary Adder implementation](/images/calculator/4-bit-adder.png)
+
+From above design you can expaned it to implement **8-bit parallel binary adder**.
+
+Implementation of 4-bit parallel binary Adder/Subtractor using compination of 4 Full-Adder:
+
+![Calculator, 4-bit parallel binary Adder/Subtracor implementation](/images/calculator/4-bit-subtractor.png)
+
+
 
 ### Traffic Light
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
 
 
-![Buffer/Queue logic expression](/images/traffic-1.png)
+![Traffic Light logic expression](/images/traffic/traffic-1.png)
 
 ### Finite State Machine for Traffic Light Control
-![Buffer/Queue logic expression](/images/traffic-2.png)
+![Traffic Light logic expression](/images/traffic/traffic-2.png)
 
 ### Transition Table
-![Buffer/Queue logic expression](/images/traffic-3.png)
+![Traffic Light logic expression](/images/traffic/traffic-3.png)
 
 ### Implements D's using 8x1 Multiplixers:
-![Buffer/Queue logic expression](/images/traffic-4.png)
+![Traffic Light logic expression](/images/traffic/traffic-4.png)
 
 ### Logic Circuit part 1
-![Buffer/Queue logic expression](/images/traffic-5.png)
+![Traffic Light logic expression](/images/traffic/traffic-5.png)
 
 ### Logic Circuit part 2
-![Buffer/Queue logic expression](/images/traffic-6.png)
+![Traffic Light logic expression](/images/traffic/traffic-6.png)
 
 ### Selected Topic
 1. Traffic Light
 1. Buffer
-1. Competition
+1. Calculator
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
