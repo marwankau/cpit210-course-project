@@ -42,7 +42,7 @@ The following circuit diagram is sample of Queue/Buffer circuit.
 #### Problem Statement
 This circuit is used to perform three arthimatic operations Addition, Subtraction, and Multiplication of two numbers with 8 bits. Students required to build required components from the basic logic gates (AND, OR, XOR, NOT gates). Implementation should contains design of half adder, full adder, and 8 bits parallel binary adder. Subtraction and Multiplier should implemented using full adder as described in following diagrams. You are not allow to use pre-designed Adder, Subtractor, and Multiplier, you mush build them from scratch.
 
-![Calculator, not allowed components](/images/calculator/not-accepted-arthimatic-components.png)
+![Calculator, not allowed components](/images/calculator/not-accepted-components.png)
 
 Implementation of Half Adder:
 
