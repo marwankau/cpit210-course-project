@@ -87,7 +87,7 @@ This circuit is used to control a four-way traffic light control system. In what
 ![Traffic Light logic expression](/images/traffic/traffic-6.png)
 
 ### Selected Topic
-1. Traffic Light
+1. Traffic Light 
 1. Buffer
 1. Calculator
 
