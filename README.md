@@ -12,9 +12,9 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- saud
-- saher
-- abdulkarim
+- Saud
+- Saher
+- Abdulkarim
 
 ## Circuit Project topics:
 
@@ -27,11 +27,9 @@ In this project students should work in groups of 3 to implement a fully functio
 ### Traffic Light
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
-
+![Traffic Light Example](https://user-images.githubusercontent.com/93139459/216829419-5cf9ecd3-a523-4a3e-afd3-ad871eb018af.png)
 ### Selected Topic
-1. Traffic Light
-1. Buffer
-1. Competition
+Traffic Light
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
@@ -47,5 +45,4 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 ## Logic Expression
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
 
