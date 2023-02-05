@@ -5,8 +5,8 @@ In this project students should work in groups of 3 to implement a fully functio
 
 ## Group Members
 [comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
-- [saud aljedani](https://github.com/Saudsaad5)
-- [saher marsi](https://github.com/SaherMarsi)
+- [Saud Aljedani](https://github.com/Saudsaad5)
+- [Saher Marsi](https://github.com/SaherMarsi)
 - [Abdulkarim Alsahli](https://github.com/Abdulkarim-Alsahli)
 
 [comment]: <> (Students should include the contribution percentage of each group member.)
@@ -27,6 +27,7 @@ In this project students should work in groups of 3 to implement a fully functio
 ### Traffic Light
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
+
 ![Traffic Light Example](https://user-images.githubusercontent.com/93139459/216829419-5cf9ecd3-a523-4a3e-afd3-ad871eb018af.png)
 ### Selected Topic
 Traffic Light
