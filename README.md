@@ -43,7 +43,7 @@ Each student's grade will defer from his group-mate
 - stating the problem need to be solved
 - explanation of each component used
 - explanation of whole circuit/integration of component
-- how often you update/participate/contribute in group repository
+- how often you update/participate/contribute in the group repository
 
 ## Deadline
 Monday 29 / 7 / 1444 H, *20 Feb. 2023*
