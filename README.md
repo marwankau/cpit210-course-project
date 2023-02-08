@@ -24,19 +24,9 @@ In this project students should work in groups of 3 to implement a fully functio
 #### Problem Statement
 This circuit solves the reading and writing to buffer. For example: If we have input 4, we want to write it, buffer works like memory and stores it there when we click the write button. In case when we want to read from the buffer, by pressing read button, it starts reading from the first entry sored in the buffer. Buffer is nothing but a temporary memory. In addition, we can clear the contents from the buffer. Students are asked to design, and implement the required circuit.
 
-### Competition
-#### Problem Statement
-This circuit solves the priority problems in competitions. For example: If we have 4 competitors and each of them has a button, and a question is asked, then the first competitor who presses the button will have his number appear on the screen. Students are asked to design, and implement the required circuit.
-
-
-### Traffic Light
-#### Problem Statement
-This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
 
 ### Selected Topic:
-1. Traffic Light
-2. Comptition
-3. Buffer
+1. Buffer
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
