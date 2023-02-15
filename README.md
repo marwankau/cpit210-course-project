@@ -21,12 +21,11 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Choose one of the following, your choice need to be accepted by Instructor)
 
 ### Buffer
-#### Problem Statement
+#### *** Problem Statement ***
 This circuit solves the reading and writing to buffer. For example: If we have input 4, we want to write it, buffer works like memory and stores it there when we click the write button. In case when we want to read from the buffer, by pressing read button, it starts reading from the first entry sored in the buffer. Buffer is nothing but a temporary memory. In addition, we can clear the contents from the buffer. Students are asked to design, and implement the required circuit.
 
-
-### Selected Topic:
-1. Buffer
+#### *** The Solution ***
+In this project we want to implement a buffer that receives a 4-bit input data and the output will be on a memory RAM consist of 16 address for 16 input data every address from these 16 address consist of 4-bit for each input data, so as a conclusion we need 3 counter address to read from, address to write to and the number of element on buffer. So start do 3 counter flop each of these counter have there special functionality.
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
