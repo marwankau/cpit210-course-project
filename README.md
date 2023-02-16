@@ -30,18 +30,18 @@ In this project we want to implement a buffer that receives a 4-bit input data a
 ### Components
 
 We used a combination of ingredients:
-1 – Write counter
-2 – Read counter
-3 – Item counter
-4 – D F/F
-5 – Multiplexer
-6 – Data input && Data output
-7 – CLR button
-8 – Clock
-9 – Splitter
-10 – Logic Gate (AND – OR – NAND – NOT)
-11 – Power
-12 – RAM and Hex digit display.
+- Write counter
+- Read counter
+- Item counter
+- D F/F
+- Multiplexer
+- Data input && Data output
+- CLR button
+- Clock
+- Splitter
+- Logic Gate (AND – OR – NAND – NOT)
+- Power
+- RAM and Hex digit display.
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
