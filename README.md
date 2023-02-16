@@ -27,6 +27,22 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 #### *** The Solution ***
 In this project we want to implement a buffer that receives a 4-bit input data and the output will be on a memory RAM consist of 16 address for 16 input data every address from these 16 address consist of 4-bit for each input data, so as a conclusion we need 3 counter address to read from, address to write to and the number of element on buffer. So start do 3 counter flop each of these counter have there special functionality.
 
+### Components
+
+We used a combination of ingredients:
+1 – Write counter
+2 – Read counter
+3 – Item counter
+4 – D F/F
+5 – Multiplexer
+6 – Data input && Data output
+7 – CLR button
+8 – Clock
+9 – Splitter
+10 – Logic Gate (AND – OR – NAND – NOT)
+11 – Power
+12 – RAM and Hex digit display.
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
