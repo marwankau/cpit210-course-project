@@ -12,7 +12,7 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Suhaib  
+- Suhaib 
 - Abdulaziz 
 - Meshal
 
@@ -24,14 +24,28 @@ In this project students should work in groups of 3 to implement a fully functio
 #### Problem Statement
 This circuit solves the reading and writing to buffer. For example: If we have input 4, we want to write it, buffer works like memory and stores it there when we click the write button. In case when we want to read from the buffer, by pressing read button, it starts reading from the first entry sored in the buffer. Buffer is nothing but a temporary memory. In addition, we can clear the contents from the buffer. Students are asked to design, and implement the required circuit.
 
-### Competition
-#### Problem Statement
-This circuit solves the priority problems in competitions. For example: If we have 4 competitors and each of them has a button, and a question is asked, then the first competitor who presses the button will have his number appear on the screen. Students are asked to design, and implement the required circuit.
+### Solution
+before we started on the project we split it into multiple parts while through out the project we stayed in contact to advice and fix eachothers problems, each person mainly held a piece of the project to implement into logism
+
+#### Part 1: (Suhaib)
+In this part after we planned out our board I went ahead and started defining all the devices that we need for the project.
+
+I started by adding 3 counters into the circuit, the first counter is the Item counter this counters job is to tell us which address we are pointing at in the ram. The second counter is the Write counter, this counters job is to tell us which address we will write into when we make a write opreation.
+And in the same sense the Read counter will tell us which address we are reading from.
+
+After that i added 4 D Flip Flops these filp flops will manage most of the operations in the circuit and through them the circuit will be truly defined.
+Then I added 2 buttons one for writing which I connected to the "0" flip flop and a read button which connected to the "2" flip flop.
+
+After that I added a multiplexer which will take 2 inputs read and write, and depending on which of the 2 a different operation will occur.
+And then I defined a piece of 16Bits RAM with 4 address bits and 4 data bits, and I connected a Hex digit display that shows the bit we are reading when the read button is pressed. Then finally I added a clear button that will be used to reset the entire circuit.
+
+![CPIT_210_BUFFER_(1 0)](https://user-images.githubusercontent.com/123287867/219379025-3e13cea3-b2d5-48a2-abfd-5a8babde9862.png)
+
+#### Part 2: (Abdulaziz)
 
 
-### Traffic Light
-#### Problem Statement
-This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
+#### Part 3: (Meshal)
+
 
 ## Selected Topics
 1. Traffic Light
@@ -53,4 +67,5 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
 ![Our Awsome Project logic expression](/images/logic-expression.png)
+
 
