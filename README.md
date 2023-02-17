@@ -23,6 +23,7 @@ In this project students should work in groups of 3 to implement a fully functio
 #### Problem Statement
 Design a calculator to preform add, sub, mult, div.
 
+#
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
