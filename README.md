@@ -44,10 +44,10 @@ And then I defined a piece of 16Bits RAM with 4 address bits and 4 data bits, an
 #### Part 2: (Abdulaziz)
 Here we started make the devices we made in the previous part communicate with each other to perform the jobs we want them to do. 
 
-In the begging, we connected the output “value” of the item counter which is 4-bits to a NAND gate, this NAND gate will output 0 only when the item counter becomes full, as a result, the flip flop “q0” which is responsible to writing in memory, will get 0 as an input, and that’s means when we click the write button, 0 is passed to “q1”  after this writing operation is refused.
+In the begging, we connected the output “value” of the item counter which is 4-bits to a NAND gate, this NAND gate will output 0 only when the item counter becomes full, as a result, the flip flop “0” which is responsible to writing in memory, will get 0 as an input, and that’s means when we click the write button, 0 is passed to flip flop “1”  after this writing operation is refused.
 In the other hand, when the output is 1, writing operation is proceed and the write and item counter will increment. 
 
-Same as writing opreation, item counter will send the value to an OR gate, the output will be 0 only if the item counter is empty, this output is connected to “q2” to determine the availability of the data in the RAM. 
+Same as writing opreation, item counter will send the value to an OR gate, the output will be 0 only if the item counter is empty, this output is connected to flip flop “2” to determine the availability of the data in the RAM. 
 
 #### Part 3: (Meshal)
 
