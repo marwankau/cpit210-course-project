@@ -47,5 +47,6 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 ## Logic Expression
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
+![Our Awsome Project logic expression calculater_circuit](https://user-images.githubusercontent.com/123293486/219744083-ba5e0230-4e8d-44d2-8db3-dbfb538a8519.png)
+
 
