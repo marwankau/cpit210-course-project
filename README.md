@@ -47,7 +47,16 @@ Here we started make the devices we made in the previous part communicate with e
 In the begging, we connected the output “value” of the item counter which is 4-bits to a NAND gate, this NAND gate will output 0 only when the item counter becomes full, as a result, the flip flop “0” which is responsible to writing in memory, will get 0 as an input, and that’s means when we click the write button, 0 is passed to flip flop “1”  after this writing operation is refused.
 In the other hand, when the output is 1, writing operation is proceed and the write and item counter will increment. 
 
-Same as writing opreation, item counter will send the value to an OR gate, the output will be 0 only if the item counter is empty, this output is connected to flip flop “2” to determine the availability of the data in the RAM. 
+Same as writing opreation, item counter will send the value to an OR gate, the output will be 0 only if the item counter is empty, this output is connected to “q2” to determine the availability of the data in the RAM. If output is 1, reading operation will occur, “Q2”  and “Q3” will be inputs for an AND gate to increment the read counter.
+
+About the multiplexer, it got in input from “Q2” to determine that we writing or reading from the RAM. 
+
+Also, we connected the clear button with all the counters, and “Q0” and “Q2”  as it became 1, all counters are reseted. 
+
+However, The clock button is responsible to control most of the operations of the circuit, making the clock button connected to flip	flops “1” and “3” and all the counters, it gives as the response when every puls happened.
+
+![part2](https://user-images.githubusercontent.com/93838404/219731942-a1b9d6f4-ed40-4975-a757-1cae05a8adb8.png)
+
 
 #### Part 3: (Meshal)
 
