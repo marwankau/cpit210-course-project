@@ -59,7 +59,15 @@ However, The clock button is responsible to control most of the operations of th
 
 
 #### Part 3: (Meshal)
+in this particular part I will be talking about the RAM, how every opreation will work and how we attached everything to it.
+Before starting, we have fixed two bugs from part 2. One on the left side and one on the other side.
 
+We created a RAM cosist of 16 addresses. each address will hold 4-bits with maximum value being 15.
+
+In order to know which location we are writing\reading from we have attached the address of the RAM to the output of the multiplexer. We have also taken the values
+which to be stored in the RAM from the inputs.
+
+The store value will be used for the write opreation which it is attached using OR gate between Q0 and Q1, if the write opreation is correct the value will be stored. Otherwise it will not.
 
 ## Selected Topics
 1. Traffic Light
