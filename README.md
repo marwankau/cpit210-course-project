@@ -41,6 +41,17 @@ Now that we have a full adder, we can add multi-bit numbers together. We want to
 through this circuit, we can add two 8-bit numbers together. Ex: adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
 ![Our Awsome Project logic expression](images/Add circuit.png)
 
+## Subtraction:
+ subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
+To subtract two 8-bit numbers together. So, to convert a number into two’s complement, we can use the 8-bit adder that we have previously built in addition. If we invert all the inputs for number B, that does the first step (invert all bits). Then for the second step, we can pass 1 into the carry bit. This effectively adds 1 to the output.
+Ex: Converting 6 into -6
+And just like that, we convert 6 (00000110) into -6 (11111010)
+
+We can use this circuit now to do the subtraction as well after all the inputs for number B have been invert.
+If we just put in a number in the A inputs, then we end up subtracting B from A. 
+Ex: 8–3 (0001000–00000011)
+Here A is 8 (0001000), and B is 3 (00000011) will be the output 5 (00000101).
+
 ## Multiplier
 In the multiplier circuit, we divide the problem into smaller one.
 
