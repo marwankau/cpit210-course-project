@@ -50,6 +50,9 @@ For each state, the Flip Flops will bring out a number with 3 bits.
 Our First decoder simply will take the 3 bit number and convert it to 8 output lines. Each line will have its Integer value.
 We will connect the output of the main decoder other 4 decoders. Each 2 values of the outputs will be connected to a specific decoder in a specific region. To clarify: when the output of the main decoder is 0 the decoder on the North will be ON and the light is green. When it’s 1 the light will be Yellow .. etc.
 
+### AND GATE
+We used it to implement logical conjunction. So to check if the TA counter which has a 4 bit data counted to its full count (15) and ready to reset. Combined with the Not GATE which sends 1s to the MUXS as long as the TA counter hasn't reach 15 and the TG counter still didn't reset. As soon as the TA counter reaches 15 and the TG counter resets the AND gate will output 1s which indicates the end of the yellow light phase.
+
 ### Splitter
 We have many wires going into one gate or plexer etc. In such cases you we want to combine them in one bundle. In order to do this we used splitters which allows you to combine many wires together or split the bundle to separate wires. We combined the wires going as inputs into the AND gate from TA counter and from the three D-flip flops to Muxs and Decoder. We combined the wires from the decoder to another splitter to sperate them into different decoders (S,W,E,N).
 
