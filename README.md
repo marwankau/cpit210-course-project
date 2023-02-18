@@ -90,6 +90,11 @@ These two FF will perform same as the two write FF, it perform only the read pro
 
 #### **
 
+![image](https://user-images.githubusercontent.com/77943208/219883005-13805344-5748-4871-817a-6347e790e7e8.png)
+
+When the write AND GATE be 1 that mean the buffer will write and increase the counter, but when the read AND GATE be 1 that mean the buffer will read and decrease the counter.
+When both write and read AND GATE are '0' the it will perform the write operation. But if the write are '1' and read '0' then will perform the read operation.
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
