@@ -67,11 +67,11 @@ Here we want to multiply 8 by 8 bits which means that ‘B’ value will be 8-bi
 The Lo output is used for the first 8-bit output and the Hi output used for the next 8-bit output. So, if we combined them, it will give us 16 bits output. For example, if we multiply the  11111111 by 00000010 it will give us 00000001 11111110. The purpose of using hi is because that in some multiplication process of 8 by 8 bits , the output will be more than 8-bit. So, if we don’t use the 8-bit hi output, it will give us an overflow. Last thing, we made an Enable button for the multiplier circuit to turn it on/off and to use it for the decoder latter. 
 
 
-##Decoder
+## Decoder
  There is a problem when we put two inputs A and B with 8 bits the circuits will perform all operations add, subtract and multiply. so we need a decoder that will chose which output from operations will goes to outputs hi and lo on the external circuit by controlling them by Enable input. The decoder circuit designed to choose output 1(add operator) if the value of two inputs is 00, chose output 2(subtract operator) if the value of two inputs is 01, chose output 3(multiplication operator) if the value of two inputs is 10, and chose output 4 if the value of two inputs is 11 which will do nothing on the circuits.
 
 
-##The final Calculator circuit
+## The final Calculator circuit
 At the end, we combined all the circuit that we made together for designing the calculator circuit. First thing, we connect the input ‘A’ and ‘B’ to each of the adder, subtractor and multiplier. Next thing, we connect each of the arithmetic circuit’s output to the Lo and Hi output except the subtractor circuit which we only connected to the Lo output cause it’s impossible to have more than 8 bits result of subtractor operation. Plus we don’t need the carry out of the subtractor cause like we said there will not be any result more than 8-bits. 
 Another thing is that we connect the Carry out of the Adder to a splitter before connected it to the Hi output, and only connect the first bit to the Hi output, because the maximum result that that will get from the adder is 00000001 11111110. The other bits is connected to a ground (Indicate input  with value 0). Lastly, we built Decoder to choose the operation that we want to perform.
 
