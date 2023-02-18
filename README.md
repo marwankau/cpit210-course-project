@@ -80,6 +80,16 @@ Its function is to indicate that the counter is empty or there are an element to
 
 #### **
 
+![image](https://user-images.githubusercontent.com/77943208/219882625-7b756d82-398f-4f04-b9b2-280194aa2fe2.png)
+
+So these two FF are to perform only the write prosses if you press the write button only if there are a space left in buffer (queue) if there are no space the prosses will refund. 
+
+![image](https://user-images.githubusercontent.com/77943208/219882662-58c3544c-7526-415f-b202-029d5334b976.png)
+
+These two FF will perform same as the two write FF, it perform only the read prosses if you press the read button only if there are a an element in buffer (queue) if there are no element the prosses will refund.
+
+#### **
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
