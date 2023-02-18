@@ -78,6 +78,42 @@ Each selection will activate only one operation and disable the other two operat
 ![Calculator, Complete Calculator design](/images/calculator/final-diagram.png)
 
 
+## Our Explanation 
+### **Addition**
+  
+  
+### **Subtraction**
+  #### Function:
+   The main function of this circuit is to subtract the values in the second variable from the first variable.
+  #### Components:
+   - 8-bit binary subtractor
+   - Controlled buffer
+  #### Subtractor:
+   The circuit subtract two number from each other. There is two input “A” & “B”. the value in “B” is subtracted from the from the value in “A”. The output is controlled by a controlling buffer or what we call it “Enable”. 
+   #### How it works:
+   1. we make 2nd compliment on “B”. which means converting 1 to 0 and vice versa. 
+  2. add 1 to B’ to become b’’.
+  3. Now we add “A” with B’’ and we will get the result of the subtraction.
+  #### Example for illustration:
+  - A: 1110010 (Decimal =114)
+  - B: 1000101 (Decimal = 69)
+  - Now perform step1 on B 
+  - B’: 0111010 
+  - Then perform step2 on B’
+  - B’’: 0111011
+  - Then perform step3 add A on B’’.
+  - A: 1110010
+  - B’’: 0111011
+  - ---------------- +
+  - 0101101 (This equivalent to 45 Decimal)
+  #### Finally:
+  To subtract any other number those the steps to do it. In the final circuit they will be 4 input ‘A’ ‘B’ in the form of 8-bit input, ‘Cout’ input always 0 which in the circuit is ground. ‘Enable’ input is used to make the subtractor circuit on when the decoder choose number ‘2’. This makes sure there is no overlap between the other circuit.
+  
+  
+### **Multiplication**
+
+
+
 
 
 
