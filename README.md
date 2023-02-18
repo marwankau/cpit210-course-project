@@ -15,9 +15,10 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Yousef Bogari 34%
+- Turki AlGhamdi 34%
+- Yousef Bogari 33%
 - Ahmed Alagbari 33%
-- Turki AlGhamdi 33%
+
 
 ## Circuit Project topics:
 
