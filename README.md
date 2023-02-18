@@ -69,6 +69,15 @@ which to be stored in the RAM from the inputs.
 
 The store value will be used for the write opreation which it is attached using OR gate between Q0 and Q1, if the write opreation is correct the value will be stored. Otherwise it will not.
 
+Chip select is attached to the flip-flops using AND gate, to make sure we are writing\reading the right value. We also attached the clock value to the clock so we can update values by switching from 0 to 1.
+
+The load value will be used for the read opreation which it is attached from the multiplexer's selectd source. if the write opreation is correct it will check if there are values in the RAM or not, if yes it will read it. Otherwise it will not. Also, we have attached the clear value to the clear button just to reset the RAM.
+
+Lastly, attaching the data value to the 7-segmat so we can present the current value in RAM.
+
+![CPIT_210_BUFFER_3 0](https://user-images.githubusercontent.com/123258447/219868167-e39e6515-fb33-4f0d-a261-5d766ab22cbb.png)
+
+
 ## Selected Topics
 1. Traffic Light
 2. Competition
