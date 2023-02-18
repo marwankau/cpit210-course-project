@@ -43,6 +43,17 @@ We used a combination of ingredients:
 - Power
 - RAM and Hex digit display.
 
+### Explanation of Whole Circuit:
+#### 1- First counter is the write counter(tail of queue):
+It’s the counter of the write address so when you add a number on address of 4-bit then press the write button that mean you want to write and add a number of the element on the tail (enqueue)  of the queue (start of the queue). that mean the counter of writing will increment by '1' for each press on the writing button until we reach the 16 element.
+
+![image](https://user-images.githubusercontent.com/77943208/219878508-5e59dd6f-7f96-4ff1-b6b3-90ea7e03f797.png)
+
+#### 2- read counter (head or front of queue):
+It’s the counter of the read address so the function of this counter is for reading first element you add (if its not empty) from the top(front) of the buffer queue (dequeue), so then it will do increment by '1' also for each press on the read button.
+
+![image](https://user-images.githubusercontent.com/77943208/219878603-796197d1-d9dc-41a1-9a27-b8c17413e33d.png)
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
