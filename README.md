@@ -54,6 +54,16 @@ It’s the counter of the read address so the function of this counter is for re
 
 ![image](https://user-images.githubusercontent.com/77943208/219878603-796197d1-d9dc-41a1-9a27-b8c17413e33d.png)
 
+#### 3- items counter:
+![image](https://user-images.githubusercontent.com/77943208/219879631-8035ff24-296a-4d6f-b534-fb4f58dff90c.png)
+
+This FF is responsible for every adding element, so its function is to count every element in buffer(queue) after and before each prosses of read and write.
+
+In every write prosses the counter of element will also increment by '1' as the write counter until it reach to 16 input data(address) then it will be full thats why we implement this NAND gate.
+
+![image](https://user-images.githubusercontent.com/77943208/219879790-7a5a57f5-5afb-45f7-b275-d6cc23aa8d9c.png)
+
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
