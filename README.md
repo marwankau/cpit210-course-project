@@ -109,5 +109,12 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 ## Logic Expression
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
+### Main
+
+![Buffer](https://user-images.githubusercontent.com/77943208/219892843-b31fa627-1006-4f14-af5f-f4f75e6cb7c4.png)
+
+### RAM
+
+![RAM](https://user-images.githubusercontent.com/77943208/219892984-921d7957-adc8-44d1-bd29-587a980ab6d5.png)
+
 
