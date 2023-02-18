@@ -111,6 +111,39 @@ Each selection will activate only one operation and disable the other two operat
   
   
 ### **Multiplication**
+#### The Multiplier
+
+#### Function
+The function of the multiplier circuit in this project is to perform multiplication of two binary numbers 8 bits each. And It integrated in the final combination with two other circuits (Addition and subtraction circuits) to work together as a calculator. 
+
+#### Components
+- Half adder
+- Full adder
+- 8-bit binary adder
+- 8x8 Multiplier
+
+#### Multiplier
+#### The 8x8 bits multiplier circuit consist of the following:
+- Two inputs A & B, the number which is to be multiplied by the other number is called multiplicand (A) and the number multiplied is called multiplier (B). 
+- Eight Logic circuits of input A and B, each consists of 8 AND gate.
+- Seven 8-bit parallel binary Adders
+- Two controlled buffer gates for enabling connecting to High and Low outputs
+
+#### How it works?
+Multiplication in binary numbers is performed by similar method of  multiplication of decimal number system.
+The multiplication process of 8x8 bits is performed as follow:
+1st. step: multiply the whole 8 bits of multiplicand (A) by the first digit of the multiplier (B).
+2nd. step: multiply the whole 8 bits of multiplicand (A) by the second digit of the multiplier (B).
+3rd. step: shift the result of second step to the left by one digit.
+4th. step : repeat steps 1, 2 and 3 until completing the whole 8 digits of multiplier (B).
+Finally: make summation for the above 8 multiplication results.
+
+#### Example for illustration:
+
+
+These steps are performed in the logic circuit by applying two inputs to AND gate representing Ai and Bi, the first digit of the product result in each step of multiplication is connected directly to the final output port of the multiplication circuit (by-passing the Adder). By the end of the multiplication process, the total number will be 8 digits which are named Lo Output.
+The initial carry in is considered to be zero. The the subsequent carry out of each step is added to the next step. By the end of the multiplication process, the total number will be 8 lines which are named Hi Output.
+In order to enable/disable the output of the multiplier, two controlled buffer gates are connected to the Lo and Hi outputs. The controlled buffer gate is three-state buffer, it works as a switch to switch ON or OFF the output based on the control signal (enable or disable).
 
 
 
