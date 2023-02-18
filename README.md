@@ -39,7 +39,9 @@ basically, what this circuit accomplishes is adding three 1-bit numbers together
 Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
 
 through this circuit, we can add two 8-bit numbers together. For example, adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
-![Our Awsome Project logic expression](images/Add circuit.png)
+
+![Add circuit](https://user-images.githubusercontent.com/123273500/219878127-a349cd6e-7c46-4fc1-a969-b3fa8a6a08f2.png)
+
 
 ## Subtraction:
  subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
@@ -52,8 +54,11 @@ If we just put in a number in the A inputs, then we end up subtracting B from A.
 For example, 8–3 (0001000–00000011)
 Here A is 8 (0001000), and B is 3 (00000011) will be the output 5 (00000101).
 
+![sub circuit](https://user-images.githubusercontent.com/123273500/219878155-3bf6fd95-2ae4-4d3a-ab78-d83701948983.png)
+
 ## Multiplier
-In the multiplier circuit, we divide the problem into smaller one.
+In the multiplier c![Uploading sub circuit.png…]()
+ircuit, we divide the problem into smaller one.
 
 #### 8 by 1 bit multiplier
 At this circuit, we multiply an 8 bits number (Say for example A) by 1 bit number (Say for example B). ‘A’ value could be any number between 0 and 255 but ‘B’ value either 0 or 1. So in general, any value that is multiplied by 1 will give the same value. On the other hand, any value that is multiplied by 0 will give 0. So, if we think how to solve it on the logic gates we will probably think of AND gate! 
