@@ -139,7 +139,7 @@ The multiplication process of 8x8 bits is performed as follow:
 Finally: make summation for the above 8 multiplication results.
 
 #### Example for illustration:
-(/images/calculator/multiplication.png)
+![Calculator, Binary multiplications](/images/calculator/multiplication.png)
 
 These steps are performed in the logic circuit by applying two inputs to AND gate representing Ai and Bi, the first digit of the product result in each step of multiplication is connected directly to the final output port of the multiplication circuit (by-passing the Adder). By the end of the multiplication process, the total number will be 8 digits which are named Lo Output.
 The initial carry in is considered to be zero. The the subsequent carry out of each step is added to the next step. By the end of the multiplication process, the total number will be 8 lines which are named Hi Output.
