@@ -72,6 +72,13 @@ Its function is to indicate that the counter is full or there are a place to wri
 And this is why we cant write if its full because the write AND gate will be equal to '0' and it will refund every write prosses(there will be no bulse on the increment of the write counter and the item counter. Also this AND gate will synchronize between the prosses of write and read if you press on the write and read button in one time to avoid done in same time.
 
 #### **
+But in every read prosses from the read counter the items counter will decrement by '1' opposite of read counter until it reach to 0 element or no element in counter so we need also a gate to check the counter is empty or not that’s why we implement this "or gate"
+
+![image](https://user-images.githubusercontent.com/77943208/219882454-6b6e3cf0-d855-4365-8c8c-e05960c1249c.png)
+
+Its function is to indicate that the counter is empty or there are an element to read it, so it will do sensing if the counter give 0 (the data '0000') element or '1' can read an element, else the read prosses will not done because the output or the "or gate" will be '0' if there are no element in the counter.
+
+#### **
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
