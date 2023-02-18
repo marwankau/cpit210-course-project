@@ -39,7 +39,7 @@ basically, what this circuit accomplishes is adding three 1-bit numbers together
 Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
 
 through this circuit, we can add two 8-bit numbers together. Ex: adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
-
+(images/Add circuit.png)
 
 ## Multiplier
 In the multiplier circuit, we divide the problem into smaller one.
