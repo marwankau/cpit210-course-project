@@ -19,9 +19,9 @@ In this project students should work in groups of 3 to implement a fully functio
 
 
 
-### Calculator
+##Calculator
 #### Problem Statement
-Design a calculator to preform add, sub, mult, div.
+This circuit is used to perform three arthimatic operations Addition, Subtraction, and Multiplication of two numbers with 8 bits. Students required to build required components from the basic logic gates (AND, OR, XOR, NOT gates). Implementation should contains design of half adder, full adder, and 8 bits parallel binary adder. Subtraction and Multiplier should implemented using full adder as described in following diagrams. You are not allow to use pre-designed Adder, Subtractor, and Multiplier, you mush build them from scratch.
 
 #
 
