@@ -39,9 +39,7 @@ basically, what this circuit accomplishes is adding three 1-bit numbers together
 Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
 
 through this circuit, we can add two 8-bit numbers together. For example, adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
-
-![Add circuit](https://user-images.githubusercontent.com/123273500/219878127-a349cd6e-7c46-4fc1-a969-b3fa8a6a08f2.png)
-
+![Our Awsome Project logic expression](images/Add circuit.png)
 
 ## Subtraction:
  subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
@@ -54,11 +52,8 @@ If we just put in a number in the A inputs, then we end up subtracting B from A.
 For example, 8–3 (0001000–00000011)
 Here A is 8 (0001000), and B is 3 (00000011) will be the output 5 (00000101).
 
-![sub circuit](https://user-images.githubusercontent.com/123273500/219878155-3bf6fd95-2ae4-4d3a-ab78-d83701948983.png)
-
 ## Multiplier
-In the multiplier c![Uploading sub circuit.png…]()
-ircuit, we divide the problem into smaller one.
+In the multiplier circuit, we divide the problem into smaller one.
 
 #### 8 by 1 bit multiplier
 At this circuit, we multiply an 8 bits number (Say for example A) by 1 bit number (Say for example B). ‘A’ value could be any number between 0 and 255 but ‘B’ value either 0 or 1. So in general, any value that is multiplied by 1 will give the same value. On the other hand, any value that is multiplied by 0 will give 0. So, if we think how to solve it on the logic gates we will probably think of AND gate! 
@@ -79,6 +74,8 @@ The Lo output is used for the first 8-bit output and the Hi output used for the 
 
 ## Decoder
  There is a problem when we put two inputs A and B with 8 bits the circuits will perform all operations add, subtract and multiply. so we need a decoder that will chose which output from operations will goes to outputs hi and lo on the external circuit by controlling them by Enable input. The decoder circuit designed to choose output 1(add operator) if the value of two inputs is 00, chose output 2(subtract operator) if the value of two inputs is 01, chose output 3(multiplication operator) if the value of two inputs is 10, and chose output 4 if the value of two inputs is 11 which will do nothing on the circuits.
+
+![decoder](https://user-images.githubusercontent.com/123273656/219878152-f88cc1bb-af45-48ef-9e10-4975f3682f53.png)
 
 
 ## The final Calculator circuit
