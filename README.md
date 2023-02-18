@@ -59,7 +59,7 @@ However, The clock button is responsible to control most of the operations of th
 
 
 #### Part 3: (Meshal)
-in this particular part I will be talking about the RAM, how every opreation will work and how we attached everything to it.
+In this particular part I will be talking about the RAM, how every opreation will work and how we attached everything to it.
 Before starting, we have fixed two bugs from part 2. One on the left side and one on the other side.
 
 We created a RAM cosist of 16 addresses. each address will hold 4-bits with maximum value being 15.
