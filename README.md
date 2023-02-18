@@ -38,13 +38,13 @@ basically, what this circuit accomplishes is adding three 1-bit numbers together
 
 Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
 
-through this circuit, we can add two 8-bit numbers together. For example, adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
+Through this circuit, we can add two 8-bit numbers together. For example, adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
 
 ![Add circuit](https://user-images.githubusercontent.com/123273500/219878312-ac6a9a3f-47bb-45d1-a163-c35685f9e867.png)
 
 
 ## Subtraction:
- subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
+ Subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
 To subtract two 8-bit numbers together. So, to convert a number into two’s complement, we can use the 8-bit adder that we have previously built in addition. If we invert all the inputs for number B, that does the first step (invert all bits). Then for the second step, we can pass 1 into the carry bit. This effectively adds 1 to the output.
 For example, Converting 6 into -6
 And just like that, we convert 6 (00000110) into -6 (11111010)
