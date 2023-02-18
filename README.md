@@ -39,7 +39,9 @@ basically, what this circuit accomplishes is adding three 1-bit numbers together
 Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
 
 through this circuit, we can add two 8-bit numbers together. For example, adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
-![Our Awsome Project logic expression](images/Add circuit.png)
+
+![Add circuit](https://user-images.githubusercontent.com/123273500/219878312-ac6a9a3f-47bb-45d1-a163-c35685f9e867.png)
+
 
 ## Subtraction:
  subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
@@ -51,6 +53,8 @@ We can use this circuit now to do the subtraction as well after all the inputs f
 If we just put in a number in the A inputs, then we end up subtracting B from A. 
 For example, 8–3 (0001000–00000011)
 Here A is 8 (0001000), and B is 3 (00000011) will be the output 5 (00000101).
+
+![sub circuit](https://user-images.githubusercontent.com/123273500/219878332-ed9c148a-3018-4eba-ada6-36cc772d5b4e.png)
 
 ## Multiplier
 In the multiplier circuit, we divide the problem into smaller one.
