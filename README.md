@@ -33,6 +33,7 @@ At this circuit, we multiply an 8 bits number (Say for example A) by 1 bit numbe
 
 If one of the two inputs in AND gate is 0 the result will be, but if the two input is 1 it will give 1 immediately. In our case we have 8 bit number so we need 8 AND gates to implement our circuit. Each of AND gate will be connected to ‘B’ value because it’s 8 by 1 bit multiplication. If ‘B’ value is 0 it will give 0 to each AND output, but if it’s 1 in this case it will depend on each bit of ‘A’ value. For example, if ‘A’ is 00000011 and ‘B’ is 1, the first 2 and gates from left will five an output 1 and other is 0 so the result will be 00000011.
 
+
 #### 8 by 8 bits multiplier 
 Here we want to multiply 8 by 8 bits which means that ‘B’ value will be 8-bits. So, we need eight circuits of ‘8 by 1 bit multiplier’.  Each bit from ‘B’ value will go to the right place of ‘8 by 1 multiplier’. Also, we need seven ‘8-bit parallel binary adder’ so each tow output of the ‘8 by 1 multiplier’ will go to ‘8-bit F/A’ to do addition operation. Each of the ‘8-bit F/A’ output’s first bit will go immediately to the Lo output respectively first output’s first bit. The other output’s bits from ‘8-bit F/A’ Will go to next ‘8-bit F/A’ until they reach the last ‘8-bit F/A’ and go to Hi output. 
 
