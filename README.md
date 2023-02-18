@@ -17,6 +17,8 @@ In this project students should work in groups of 3 to implement a fully functio
 - Ahmed Abdulrhman 33.33%
 - Ahmed Mohamd 33.33%
 
+![Full Adder Truth Table](https://user-images.githubusercontent.com/105042752/219877724-c5482f71-6c2f-4340-9db4-5a7b2239ffaa.jpg)
+
 
 
 ## Calculator
