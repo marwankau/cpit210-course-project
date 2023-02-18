@@ -30,11 +30,11 @@ This circuit is used to control a four-way traffic light control system. In what
 
 
 ### Components Used
-2 Counters
+#### 2 Counters
 Since we have 2 inputs named Tg and Ta, express the duration of the green light and the yellow light respectively.
 We will need two counters with different pulses rate of clock. To clarify, the counter responsible for the green light will have a clock with 3 ticks per second. While the other counter will have 2 ticks per second. As a result, the duration of the green light will be more than the yellow light.
 
-Multiplexer
+#### Multiplexer
 The multiplexer is used to select one single input and carry it out as an output based on the selected value. We used three multiplexers as we have 3 D Flip Flops. The selection line are Q0, Q1, Q2
 To get the next Q0, we must control the D0.
 Using the multiplexer. We will generate the accurate input for each flip flop with the appropriate duration of each state.
