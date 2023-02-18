@@ -9,7 +9,7 @@ In this project students should work in groups of 3 to implement a fully functio
 - [Ahmad Fahad Alagbari](https://github.com/Memeedo)
 - [Yousef hisham Bogari](http://github.com/usiifo)
 ### Selected topic: 
-1. Traffic Light
+ Traffic Light
 
 
 [comment]: <> (Students should include the contribution percentage of each group member.)
