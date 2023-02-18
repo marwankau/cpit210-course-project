@@ -63,6 +63,15 @@ In every write prosses the counter of element will also increment by '1' as the 
 
 ![image](https://user-images.githubusercontent.com/77943208/219879790-7a5a57f5-5afb-45f7-b275-d6cc23aa8d9c.png)
 
+#### **
+
+Its function is to indicate that the counter is full or there are a place to write from, so it will do sensing if the counter reach 16 element(element number 15 '1111') and there are no room to write the write prosses will stop because the output will be '0'(NAND gate).
+
+![image](https://user-images.githubusercontent.com/77943208/219882170-28781e0c-ec47-4406-a3bd-a189f35d30d9.png)
+
+And this is why we cant write if its full because the write AND gate will be equal to '0' and it will refund every write prosses(there will be no bulse on the increment of the write counter and the item counter. Also this AND gate will synchronize between the prosses of write and read if you press on the write and read button in one time to avoid done in same time.
+
+#### **
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
