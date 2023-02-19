@@ -143,8 +143,9 @@ These steps are performed in the logic circuit by applying two inputs to AND gat
 The initial carry in is considered to be zero. The the subsequent carry out of each step is connected to the next step. By the end of the multiplication process, the total number will be 8 lines which are named Hi Output.
 In order to enable/disable the output of the multiplier, two controlled buffer gates are connected to the Lo and Hi outputs. The controlled buffer gate is three-state buffer, it works as a switch to switch ON or OFF the output based on the control signal (enable or disable).
 
-## Multiplier Circuit Diagram
+## Enable
 ![Calculator, Enable](/images/calculator/Enable.png)
+## Multiplier Circuit Diagram
 ![Calculator, Binary multiplications circuit](/images/calculator/Multiplication-circuit.png)
 
 
