@@ -34,7 +34,7 @@ Each of the different states in this finite state machine will cause a different
 
 The finite state has 8 states equal to 2^3 so the table will have 3 Q's state denoted by Q0, Q1, and Q2. Each one of them will have 2 input TG and TA. The state will change to the next state by the inputs. Therefore, we need to implement D flip flop for all the current states Which it will be 3 D's flip flops. The Transition Table for D value is equal to the output, meaning that D0 is the same as Q0 after the clock transition. The implement for D is by an 8x1 Multiplexer.
 
-### Component used 
+## Component used 
 #### Multiplexer 
 ![Mutliplexer](/images/MultiPlexer-4.png)
 
