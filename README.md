@@ -12,9 +12,9 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Moath 33%
-- Maan 34%
-- Farez 33%
+- Moath 33% Subtraction
+- Maan 34% Multiplication
+- Farez 33% Addition
 
 ## Circuit Project topics:
 
@@ -89,7 +89,7 @@ Each selection will activate only one operation and disable the other two operat
    - 8-bit binary subtractor
    - Controlled buffer
   #### Subtractor:
-   The circuit subtract two number from each other. There is two input “A” & “B”. the value in “B” is subtracted from the from the value in “A”. The output is controlled by a controlling buffer or what we call it “Enable”. 
+   The circuit subtract two number A-B . There is two input “A” & “B”. the value in “B” is subtracted from the from the value in “A”. The output is controlled by a controlling buffer or what we call it “Enable”. 
    #### How it works:
    1. we make 2nd compliment on “B”. which means converting 1 to 0 and vice versa. 
   2. add 1 to B’ to become b’’.
