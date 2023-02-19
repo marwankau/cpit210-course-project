@@ -12,9 +12,9 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Suhaib 
-- Abdulaziz 
-- Meshal
+- Suhaib (33%)
+- Abdulaziz (33%)
+- Meshal (34%)
 
 ## Circuit Project topics:
 
@@ -78,25 +78,14 @@ Lastly, attaching the data value to the 7-segmat so we can present the current v
 ![CPIT_210_BUFFER_3 0](https://user-images.githubusercontent.com/123258447/219868167-e39e6515-fb33-4f0d-a261-5d766ab22cbb.png)
 
 
-## Selected Topics
-1. Traffic Light
-2. Competition
-3. Buffer
+## Selected Topic
+Buffer
 
-## Grading Factors
-Each student's grade will defer from his group-mate 
-- content and organization
-- stating the problem need to be solved
-- explanation of each component used
-- explanation of whole circuit/integration of component
-- how often you update/participate/contribute in group repository
 
-## Deadline
-Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 
 ## Logic Expression
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
+![Our Awsome Project logic expression](https://user-images.githubusercontent.com/123258447/219868167-e39e6515-fb33-4f0d-a261-5d766ab22cbb.png)
 
 
