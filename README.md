@@ -29,11 +29,12 @@ This circuit is used to perform three arthimatic operations Addition, Subtractio
  In the beginning we Create a simple circuit which is called Half adder Then we create a Full adder.
 
 #### Half Adder
-This circuit has two inputs, value of A and value of B, and it has two outputs, the sum and the carry. For example, if we add 1 and 1 together, then we get 10 in binary. The 0 would be the sum and 1 would be the carry. Now that we can add two 1-bit numbers together, let’s build a full adder.
+This circuit has two inputs, value of A and value of B, and it has two outputs, the sum and the carry. For example, if we add 1 and 1 together, then we get 10 in binary. The 0 would be the sum and 1 would be the carry. Now that we can add two 1-bit numbers together, i will build a full adder.
 
 #### Full adder 
 The full adder extends on the half adder by adding a carry bit input. This means that we can combined these together and add multi-bit numbers together. the full adder is constructed from two half adders.
 basically, what this circuit accomplishes is adding three 1-bit numbers together. For example, 1 + 1 + 1 = 11 in binary.
+
 
 
 Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
