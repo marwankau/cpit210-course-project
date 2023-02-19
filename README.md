@@ -57,7 +57,7 @@ Will act like a register it will store the output for the multiplexer. The input
 
 ### Decoder
 
-The input for the first decoder(3x8) will be Q0 , Q1 and Q2 and the output will be disturbuted to 4 decoders(2x4) each decoder conected to its own lights. 
+The input for the first decoder(3x8) will be Q0 , Q1 and Q2 and the output will be disturbuted to 4 decoders(2x4) each decoder conected to its own lights. For example if the output of the first decoder is 0 the the north green light will turn on and if the output is 1 then the north yellow light will turn on and so on.
 
 
 
