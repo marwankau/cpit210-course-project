@@ -44,7 +44,7 @@ The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
 ### COMPONENTS EXPLANATION
 
 ### CIRCUIT EXPLANATION
-
+Basically the 4 bit counter has two pathways we use, one is TA which is from the AND gate and the other is TG which is the carry, we used an AND gate and a splitter to distribute all the four bits, we then distributed the TA, TA',TG, grounding, and the power source all over the Multiplexers in order to combine and transmit the signals. Also the D FF are very important here, it is powered by a power source and connect to a clock; the D takes in the output of the multiplexers as an input, then all the Qs' are combined with the multiplexers' selectors via splitter for a more efficient approach. This is then taken into the 3x8 decoder which will control which traffic light should activate, 0 and 1 enables the west decoder which then starts a cycle from green to yellow then when not activated, it returns to the state of red, and for your information, the rest of the traffic lights (decoders) if they're not activated then they're automatically red. 2 and 3 enables the north decoder, 4 and 5 enables the east decoder, and finally 6 and 7 enables the south decoder. This is of course a never ending cycle just like the real deal! And that concludes our project. Thank you for your time. 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
