@@ -8,7 +8,6 @@ In this project students should work in groups of 3 to implement a fully functio
 - [Baraa Majed Algomlas](https://github.com/Techiewicky)
 - [Faisal Alzahrani](https://github.com/fsalzhrane)
 - [Salman Balahwal](https://github.com/SalmanBalahwal)
-- ...
 
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
@@ -19,42 +18,48 @@ In this project students should work in groups of 3 to implement a fully functio
 
 ## Calculator Project:
 
+.
+#### Problem Statement:
+
+
+
+.
 #### Half Adder:
 
+
+
+.
 #### Full Adder using combined Half-Adder:
 
+
+
+.
 #### 8-bit parallel binary Adder:
 
 
 
-
-
-#### Problem Statement:
-
-
+.
 #### 8-bit parallel binary Subtractor:
 
+
+
+.
 #### 8-bit Multiplier:
 
+
+
+.
 #### Multiplier Helper:
 
+
+
+.
 #### Final Circuit Design:
 
 
 
-## Grading Factors
-Each student's grade will defer from his group-mate 
-- content and organization
-- stating the problem need to be solved
-- explanation of each component used
-- explanation of whole circuit/integration of component
-- how often you update/participate/contribute in group repository
+.
+## The Full Project Image
 
-## Deadline
-Monday 29 / 7 / 1444 H, *20 Feb. 2023*
-
-## Logic Expression
-Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
-
-![Our Awsome Project logic expression](/images/logic-expression.png)
+![Our Awsome Project ](Full project.png)
 
