@@ -16,16 +16,18 @@ In this project students should work in groups of 3 to implement a fully functio
 - Eyad
 
 
-## Circuit Project topics:
-
-[comment]: <> (Choose one of the following, your choice need to be accepted by Instructor)
-
 
 ### Traffic Light
 #### Problem Statement
 The four-direction traffic flow is controlled by the traffic light system. One direction light will turn on when it is green, the other directions will turn red, the light in that direction will turn yellow to signal that traffic is about to stop, then red, and other directions will repeat the same process. In this way, the circuit will be controlled by a minimum of eight states. Each direciotn will have two state which is yellow and green light.        
 
 ![Traffic light](/images/traffic-1.png)
+
+## Finite State Machine for Traffic Light Control
+![Finite State Machine](/images/Finite State Machine.png)
+
+Each of the different states in this finite state machine will cause a different action to be taken. There are four directions and green and yellow lights. If we select the north direction to be green, the next state will be yellow. When this state is over, we will choose the next direction to be green, and so on through the entire state. The value shown above in the diagram determines how the states change. Each arrow indicates that the first value is for TG and the next value is for TA, and these values will be displayed in the transition table.
+
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
