@@ -24,6 +24,7 @@ In this project students should work in groups of 3 to implement a fully functio
 ### Traffic Light
 #### Problem Statement
 This circuit is used to control a four-way traffic light control system. In what follows, it makes each traffic light work when it’s needed to be green or yellow and when it’s not (Red). Students are asked to design, and implement the required circuit.
+(/images/traffic-1.png)
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
