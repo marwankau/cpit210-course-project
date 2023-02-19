@@ -19,16 +19,16 @@ In this project students should work in groups of 3 to implement a fully functio
 
 ## Calculator Project:
 
-####Problem Statement:
+#### Problem Statement:
 
 
-####8-bit parallel binary Subtractor:
+#### 8-bit parallel binary Subtractor:
 
-####8-bit Multiplier:
+#### 8-bit Multiplier:
 
-####Multiplier Helper:
+#### Multiplier Helper:
 
-####Final Circuit Design:
+#### Final Circuit Design:
 
 
 
