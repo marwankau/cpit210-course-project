@@ -21,7 +21,6 @@ In this project students should work in groups of 3 to implement a fully functio
 #### Problem Statement
 The four-direction traffic flow is controlled by the traffic light system. One direction light will turn on when it is green, the other directions will turn red, the light in that direction will turn yellow to signal that traffic is about to stop, then red, and other directions will repeat the same process. In this way, the circuit will be controlled by a minimum of eight states. Each direciotn will have two state which is yellow and green light.        
 
-![Traffic light](/images/traffic-1.png)
 
 ## Finite State Machine for Traffic Light Control
 
