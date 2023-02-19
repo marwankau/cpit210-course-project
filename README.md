@@ -27,7 +27,7 @@ This traffic light system will be a very simple one, using multiple flip-flops, 
 This is a good illustration that represents our problem, there's a total of 4 different traffic lights. All of which have different decoders.
 The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
 
-![Traffic Light Example](https://user-images.githubusercontent.com/93139459/216829419-5cf9ecd3-a523-4a3e-afd3-ad871eb018af.png)
+![Traffic Light Example](https://user-images.githubusercontent.com/93139459/219961925-ae09ba90-cdc6-4ddd-b743-80d2059a6dba.jpeg)
 
 ### COMPONENTS USED
 - 1 4-Bit Counter
@@ -60,3 +60,4 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 
 ## Our Logic Expression
 ![PROJECT EXPORTED](https://user-images.githubusercontent.com/93139459/219938044-359ee041-689d-4429-9bce-a0c383a9438a.jpg)
+
