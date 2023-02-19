@@ -24,6 +24,7 @@ The four-direction traffic flow is controlled by the traffic light system. One d
 ![Traffic light](/images/traffic-1.png)
 
 ## Finite State Machine for Traffic Light Control
+
 ![Finite State Machine](/images/Finite State Machine.png)
 
 Each of the different states in this finite state machine will cause a different action to be taken. There are four directions and green and yellow lights. If we select the north direction to be green, the next state will be yellow. When this state is over, we will choose the next direction to be green, and so on through the entire state. The value shown above in the diagram determines how the states change. Each arrow indicates that the first value is for TG and the next value is for TA, and these values will be displayed in the transition table.
