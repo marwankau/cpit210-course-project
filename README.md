@@ -144,6 +144,7 @@ The initial carry in is considered to be zero. The the subsequent carry out of e
 In order to enable/disable the output of the multiplier, two controlled buffer gates are connected to the Lo and Hi outputs. The controlled buffer gate is three-state buffer, it works as a switch to switch ON or OFF the output based on the control signal (enable or disable).
 
 ## Multiplier Circuit Diagram
+![Calculator, Enable](/images/calculator/Enable.png)
 ![Calculator, Binary multiplications circuit](/images/calculator/Multiplication-circuit.png)
 
 
