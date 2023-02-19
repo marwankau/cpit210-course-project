@@ -47,7 +47,6 @@ Each student's grade will defer from his group-mate
 Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 
 ## Logic Expression
-Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
 ![T ff Counter](/images/T-ff-Counter.png)
 
