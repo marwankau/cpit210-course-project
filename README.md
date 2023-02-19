@@ -46,7 +46,7 @@ The second implementation of multiplexer for the D1. Based on the table of the Q
 
 The last implementation of multiplexer D2. The Q2 next state is 0 until the select value is 3 it will follow the input TA  , and the next values of the select until 7 the Q2 next state is 1. For the last state which is 7, the input will be TA’.
 
-#### Counter 
+### Counter 
 
 ![Coutner](/images/counter-truth-table.png)
 The above truth table is the T flip flop coutner that count from 0 to 15, the carry is the value of TG and value will change to 1, when the counter reaches the maximum number. The bit output for the counter will be QA , QB, QC and QD which is the value of TA.
