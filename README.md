@@ -48,6 +48,9 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 - Not gate
 - Buffer
 - Pin
+#### Subtractor Circuit:
+
+![Our Project](https://github.com/Techiewicky/cpit210-course-project/blob/main/Subtractor.png)
 
 ### Multiplier:
 
