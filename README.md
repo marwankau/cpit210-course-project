@@ -21,7 +21,7 @@
 
 .
 ### Half Adder:
-
+Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
 
 .
