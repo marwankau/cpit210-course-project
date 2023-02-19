@@ -1,4 +1,4 @@
-# CPIT210 Course Project
+# CPIT210 Course Project ( GROUP 7 )
 Introduction about your project, describe the problem, and your solution. Project truth tables, expressions, k-maps and any related task must included here. Also project documentation must included.
 
 In this project students should work in groups of 3 to implement a fully functioning sequential circuit. 4-way light circuit. To design the circuit, Logisim should be used. Students should submit their software implementation and the report here. 
@@ -18,16 +18,14 @@ In this project students should work in groups of 3 to implement a fully functio
 
 
 
-
-
 ## Traffic Light
 ### The Problem That Needs To Be Solved
 This traffic light system will be a very simple one, using multiple flip-flops, decoders, and multiplexers. The problem we need to solve is creating a synchronized traffic light system using logisim. There's 4 different Traffic Lights in an intersection, we are required to make one traffic light turn from green ( GO! ) to yellow ( Slow! ) to Red ( Stop! ), once the cycle ends in one of the traffic lights, another cycle will begin in the next traffic light (East for example) and thus the cycle repeats again, just like a real life 4 way traffic system.
 
 This is a good illustration that represents our problem, there's a total of 4 different traffic lights. All of which have different decoders.
 The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
+![Traffic Light Example](https://user-images.githubusercontent.com/93139459/219962272-ddb7242a-f686-4e76-b5f0-6b2534ad2760.jpg)
 
-![Traffic Light Example](https://user-images.githubusercontent.com/93139459/219961925-ae09ba90-cdc6-4ddd-b743-80d2059a6dba.jpeg)
 
 ### COMPONENTS USED
 - 1 4-Bit Counter
@@ -60,4 +58,5 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 
 ## Our Logic Expression
 ![PROJECT EXPORTED](https://user-images.githubusercontent.com/93139459/219938044-359ee041-689d-4429-9bce-a0c383a9438a.jpg)
+
 
