@@ -43,6 +43,10 @@ The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
 - 4 2-Bit Decoder
 - 12 LEDs
 
+### COMPONENTS EXPLANATION
+
+### CIRCUIT EXPLANATION
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
