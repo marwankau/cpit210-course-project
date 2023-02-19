@@ -59,7 +59,7 @@ Here I will explain some things like:
 2-What is the input of the Multiplexers?
 3-what is the benefit of selection output?
 
-(MUX.png)
+![figure](MUX.png)
 
 First of all, we have 3 Multiplexers, each one takes 8 inputs and gives 1 output from 1 D flip-flop, and each D flip-flop has different inputs, that depend on the truth table of the traffic lights
 
