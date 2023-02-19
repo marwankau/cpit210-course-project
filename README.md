@@ -83,7 +83,7 @@ The Lo output is used for the first 8-bit output and the Hi output used for the 
 ![decoder](https://user-images.githubusercontent.com/123273656/219878152-f88cc1bb-af45-48ef-9e10-4975f3682f53.png)
 
 
-## The final Calculator circuit
+## The Final Calculator Circuit
 At the end, we combined all the circuit that we made together for designing the calculator circuit. First thing, we connect the input ‘A’ and ‘B’ to each of the adder, subtractor and multiplier. Next thing, we connect each of the arithmetic circuit’s output to the Lo and Hi output except the subtractor circuit which we only connected to the Lo output cause it’s impossible to have more than 8 bits result of subtractor operation. Plus we don’t need the carry out of the subtractor cause like we said there will not be any result more than 8-bits. 
 Another thing is that we connect the Carry out of the Adder to a splitter before connected it to the Hi output, and only connect the first bit to the Hi output, because the maximum result that that will get from the adder is 00000001 11111110. The other bits is connected to a ground (Indicate input  with value 0). Lastly, we built Decoder to choose the operation that we want to perform.
 
