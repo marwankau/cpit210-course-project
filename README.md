@@ -34,6 +34,28 @@ Each of the different states in this finite state machine will cause a different
 
 The finite state has 8 states equal to 2^3 so the table will have 3 Q's state denoted by Q0, Q1, and Q2. Each one of them will have 2 input TG and TA. The state will change to the next state by the inputs. Therefore, we need to implement D flip flop for all the current states Which it will be 3 D's flip flops. The Transition Table for D value is equal to the output, meaning that D0 is the same as Q0 after the clock transition. The implement for D is by an 8x1 Multiplexer.
 
+### Component used 
+#### Multiplexer 
+![Mutliplexer](/images/MultiPlexer-4.png)
+
+There will be 3 Multiplexer for each D function. The selectors will be the current state Q0, Q1 and Q2. 
+
+The first multiplexer when the selector value is 0 the input 0 for the multiplexer is TG Because it follows the next state values for Q0. When the selector is equal to 1 the input will be TA’ based on the next state values and the rest for all the states will be the same as shown in the table. 
+
+The second implementation of multiplexer for the D1. Based on the table of the Q1 next state, there will be 0’s and 1’s based on the value of the next state. For Example, once the select value is 0 the input stays 0, and when the select is 2 the input will be 1.
+
+The last implementation of multiplexer D2. The Q2 next state is 0 until the select value is 3 it will follow the input TA  , and the next values of the select until 7 the Q2 next state is 1. For the last state which is 7, the input will be TA’.
+
+#### Counter 
+
+![Coutner](/images/counter-truth-table.png)
+The above truth table is the T flip flop coutner that count from 0 to 15, the carry is the value of TG and value will change to 1, when the counter reaches the maximum number. The bit output for the counter will be QA , QB, QC and QD which is the value of TA.
+
+#### D flip flop
+
+Will act like a register it will store the output for the multiplexer. The input for the flip flop will be D0 to D3. when D0 value is one the next state for the traffic light will be yellow. D1 and D2 it will control the next state of which traffic light will be green. When the traffic light is yellow and the count reaches 4, then the counter will reset. The count of the yellow light can be reduced if we change the value TA from QC to QB it will reset when the counter reaches 2.     
+
+
 
 ## Grading Factors
 Each student's grade will defer from his group-mate 
