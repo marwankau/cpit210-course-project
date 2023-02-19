@@ -38,9 +38,17 @@ The FSM is defined by a list of states, initial state, and inputs that trigger e
 
 ##### Transition table
 The transition table is basically a tabular representation of the state diagram. It takes two arguments, inputs (TG and TA) and current state (Q0, Q1 and Q2), and returns a state (next state) which are Q0+, Q1+ and Q2+. The transition table is shown in Table 1 and represented by the followings: the first column is the state number (0 to 7), the two inputs in columns 2 and 3, the currents state in columns 4, 5, and 6 and finally the next state in columns7, 8, and 9.  Since we have 8 states therefore, we need 3 D-type Flip Flops to control the transition and corresponding inputs. Table 2 is showing the transition table after adding the flip-flop excitation values required to produce the state change. The functions of D's to get Q's in transition table is derived using k-map as shown in Figure 3.
+![Table](table%201.png)
+![Table](Tabe%202.png)
+![figure](figure%203.png)
 
 ##### transition implementation
 The D's are implemented using three 8x1 multiplexers, the input of each multiplexer pin is derived from the transition table. As shown in Figure 4, if the select of MUX-1 is Q0=0, Q1=0, and Q2=0 therefore the input on the first pin of multiplexer is TG, and if the select is Q0=1, Q1=0, and Q2=0 therefore the input on the second pin is the complement of TA and so on. This procedure will be applied to the two other multiplexers MUX-2 and MUX-3 as shown in Figure 5. According to the output of the multiplexers each one of the three Flip Flops will generate one of the state inputs (Q0, Q1, and Q2) according the required sequence while the fourth flip flop is used to reset the counter after complete cycle (16 bits for green light and 4 bits for yellow light). As shown in Figure 6,  these inputs will go back to the multiplexers to generate the next state and at the same time will be used to control the traffic light which will be discussed in the following section.
+![figure](figure%204.png)
+![figure](figure%205.png)
+![figure](figure%206.png)
+
+
 
 
 #### Circuit Explanation
@@ -60,6 +68,7 @@ First of all, we have 3 Multiplexers, each one takes 8 inputs and gives 1 output
 This is the picture of the inputs that each D flip-flop has. Finally, what is the benefit of the selection output? The benefit of selection is to identify which inputs become outputs.
 
 Decoders:
+
 Here I will explain some things like:
 1-	how many Decoders do we have?
 2-	What are the inputs and what are the outputs
