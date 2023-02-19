@@ -13,11 +13,21 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Ahmed 35%
-- Fahad 35%
-- Ali 30%
+- Baraa Majed Algomlas 30%
+- Faisal Alzahrani 40%
+- Salman Balahwal 30%
 
 ## Calculator Project:
+
+#### Half Adder:
+
+#### Full Adder using combined Half-Adder:
+
+#### 8-bit parallel binary Adder:
+
+
+
+
 
 #### Problem Statement:
 
