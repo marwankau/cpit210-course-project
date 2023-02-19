@@ -44,33 +44,33 @@ The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
 - 12 LEDs
 
 ### COMPONENTS EXPLANATION
-•	1 4-Bit Counter: load receives 0 from Grounding source, count is increment and receives 1 from power source, receives impulses from the clock, direct current value     of counter to 4-bit Splitter, carry TG to the first Multiplexer.
+-	1 4-Bit Counter: load receives 0 from Grounding source, count is increment and receives 1 from power source, receives impulses from the clock, direct current value     of counter to 4-bit Splitter, carry TG to the first Multiplexer.
 
-•	1 1-Bit AND gate: receives bits from splitter, then direct the output to NOT gate, and to the second and third Multiplexers.
+-	1 1-Bit AND gate: receives bits from splitter, then direct the output to NOT gate, and to the second and third Multiplexers.
 
-•	1 NOT gate: negates the output of AND gate, then direct it to Multiplexers. 
+-	1 NOT gate: negates the output of AND gate, then direct it to Multiplexers. 
 
-•	2 Power sources: direct 1 bit to the counter, Also, to the second and third Multiplexers, direct 1 bit to the enable of each D Flip-Flops, too.
+-	2 Power sources: direct 1 bit to the counter, Also, to the second and third Multiplexers, direct 1 bit to the enable of each D Flip-Flops, too.
 
-•	2 Grounding sources: direct 0 bit to the counter, also, to the second and third Multiplexers.
+-	2 Grounding sources: direct 0 bit to the counter, also, to the second and third Multiplexers.
 
-•	1 4-bit Splitter receives current value of counter.
+-	1 4-bit Splitter receives current value of counter.
 
-•	1 3-bit Splitter receives current D Flip-Flops state.
+-	1 3-bit Splitter receives current D Flip-Flops state.
 
-•	4 2-bit Splitters receive the output of 3-bit Decoder.
+-	4 2-bit Splitters receive the output of 3-bit Decoder.
 
-•	3 Multiplexers: receive sources, and each one has a Select identifies which input becomes output. Each Select receives a bit from 3-bit Splitter.
+-	3 Multiplexers: receive sources, and each one has a Select identifies which input becomes output. Each Select receives a bit from 3-bit Splitter.
 
-•	3 D Flip-Flops: receive impulses from clock, direct current state to the 3-bit Splitter, and each D Flip-Flops have an enable that receive 1 bit from power source.
+-	3 D Flip-Flops: receive impulses from clock, direct current state to the 3-bit Splitter, and each D Flip-Flops have an enable that receive 1 bit from power source.
 
-•	1 Clock: direct impulses to the counter and D Flip-Flops.
+-	1 Clock: direct impulses to the counter and D Flip-Flops.
 
-•	1 3X8-Bit Decoder: receives the destination from 3-bit Splitter, then, direct the output to the Splitter of 2-Bit Decoder.
+-	1 3X8-Bit Decoder: receives the destination from 3-bit Splitter, then, direct the output to the Splitter of 2-Bit Decoder.
 
-•	4 2X4-Bit Decoder: receives the destination from 2-bit Splitter, then, direct the output to LEDs.
+-	4 2X4-Bit Decoder: receives the destination from 2-bit Splitter, then, direct the output to LEDs.
 
-•	12 LEDs: receive the output from 2-Bit Decoder and display it on the LED.
+-	12 LEDs: receive the output from 2-Bit Decoder and display it on the LED.
 
 
 ### CIRCUIT EXPLANATION
