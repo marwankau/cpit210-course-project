@@ -53,7 +53,11 @@ The above truth table is the T flip flop coutner that count from 0 to 15, the ca
 
 ### D flip flop
 
-Will act like a register it will store the output for the multiplexer. The input for the flip flop will be D0 to D3. when D0 value is one the next state for the traffic light will be yellow. D1 and D2 it will control the next state of which traffic light will be green. When the traffic light is yellow and the count reaches 4, then the counter will reset. The count of the yellow light can be reduced if we change the value TA from QC to QB it will reset when the counter reaches 2.     
+Will act like a register it will store the output for the multiplexer. The input for the flip flop will be D0 to D3. when D0 value is one the next state for the traffic light will be yellow. D1 and D2 it will control the next state of which traffic light will be green. When the traffic light is yellow and the count reaches 4, then the counter will reset. The count of the yellow light can be reduced if we change the value TA from QC to QB it will reset when the counter reaches 2.  
+
+### Decoder
+
+The input for the first decoder(3x8) will be Q0 , Q1 and Q2 and the output will be disturbuted to 4 decoders(2x4) each decoder conected to its own lights. 
 
 
 
