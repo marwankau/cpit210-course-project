@@ -39,6 +39,38 @@ The transition table is basically a tabular representation of the state diagram
 The D's are implemented using three 8x1 multiplexers, the input of each multiplexer pin is derived from the transition table. As shown in Figure 4, if the select of MUX-1 is Q0=0, Q1=0, and Q2=0 therefore the input on the first pin of multiplexer is TG, and if the select is Q0=1, Q1=0, and Q2=0 therefore the input on the second pin is the complement of TA and so on. This procedure will be applied to the two other multiplexers MUX-2 and MUX-3 as shown in Figure 5. According to the output of the multiplexers each one of the three Flip Flops will generate one of the state inputs (Q0, Q1, and Q2) according the required sequence while the fourth flip flop is used to reset the counter after complete cycle (16 bits for green light and 4 bits for yellow light). As shown in Figure 6,  these inputs will go back to the multiplexers to generate the next state and at the same time will be used to control the traffic light which will be discussed in the following section.
 
 
+#### Circuit Explanation
+
+Multiplexers:
+Here I will explain some things like:
+1-how many Multiplexers do we have?
+2-What is the input of the Multiplexers?
+3-what is the benefit of selection output?
+
+()
+
+First of all, we have 3 Multiplexers, each one takes 8 inputs and gives 1 output from 1 D flip-flop, and each D flip-flop has different inputs, that depend on the truth table of the traffic lights
+
+()
+
+This is the picture of the inputs that each D flip-flop has. Finally, what is the benefit of the selection output? The benefit of selection is to identify which inputs become outputs.
+
+Decoders:
+Here I will explain some things like:
+1-	how many Decoders do we have?
+2-	What are the inputs and what are the outputs
+3-	explain how it’s works
+
+()
+
+First of all, we have 1 decoder that takes 3 inputs and gives 8 outputs, every 2 outputs are assigned to a decoder and each decoder points to a traffic light. The decoder takes two inputs from the big decoder(3x8) and gives 3 outputs, each output is responsible for the color of the traffic light signal, and the 2 inputs consist of 1 and 0. Number 1 for the green light and number 0 for the yellow light, but if the two inputs are  0  then the color of the traffic light will be red.
+
+How the circuit counter is work:
+
+()
+
+First of all, we click on the clock to increase the number of the counter, and the counter is responsible to enable the green light, and after the time of the green light finish, switch the light to the yellow light, in this circuit we set the yellow light time to 4 seconds, so if the counter was 4 seconds, the And gate will active and enable the last D flip-flop, and the last D flip-flop is responsible for resetting the counter. Finally, the next traffic light will change the light from red to green.
+
 ## Grading Factors
 Each student's grade will defer from his group-mate 
 - content and organization
@@ -53,5 +85,5 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 ## Logic Expression
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
+![Our Awsome Project logic expression](Logic_Expression.png)
 
