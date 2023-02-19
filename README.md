@@ -25,7 +25,7 @@ This circuit is used to perform three arthimatic operations Addition, Subtractio
 
 ## Explanation
 
-## Addition:  
+## Addition
  In the beginning we Create a simple circuit which is called Half adder Then we create a Full adder.
 
 #### Half Adder
@@ -44,7 +44,7 @@ Through this circuit, we can add two 8-bit numbers together. For example, adding
 ![Add circuit](https://user-images.githubusercontent.com/123273500/219878312-ac6a9a3f-47bb-45d1-a163-c35685f9e867.png)
 
 
-## Subtraction:
+## Subtraction
  Subtraction can be represented as adding a positive number to a negative number. For example, 9–5 = 9 + (-5). 
 To subtract two 8-bit numbers together. So, to convert a number into two’s complement, we can use the 8-bit adder that we have previously built in addition. If we invert all the inputs for number B, that does the first step (invert all bits). Then for the second step, we can pass 1 into the carry bit. This effectively adds 1 to the output.
 For example, Converting 6 into -6
