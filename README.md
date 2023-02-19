@@ -19,14 +19,20 @@ In this project students should work in groups of 3 to implement a fully functio
 
 ### Traffic Light
 #### Problem Statement
-The four-direction traffic flow is controlled by the traffic light system. One direction light will turn on when it is green, the other directions will turn red, the light in that direction will turn yellow to signal that traffic is about to stop, then red, and other directions will repeat the same process. In this way, the circuit will be controlled by a minimum of eight states. Each direciotn will have two state which is yellow and green light.        
+The 4 direction traffic flow is controlled by the traffic light system. One direction light will turn on when it is green, the other directions will turn red, the light in that direction will turn yellow to signal that traffic is about to stop, then red, and other directions will repeat the same process. In this way, the circuit will be controlled by a minimum of 8 states. Each direciotn will have two state which is yellow and green light.        
 
 
 ## Finite State Machine for Traffic Light Control
 
 ![Finite State](/images/Finite-State-Machine.png)
 
-Each of the different states in this finite state machine will cause a different action to be taken. There are four directions and green and yellow lights. If we select the north direction to be green, the next state will be yellow. When this state is over, we will choose the next direction to be green, and so on through the entire state. The value shown above in the diagram determines how the states change. Each arrow indicates that the first value is for TG and the next value is for TA, and these values will be displayed in the transition table.
+Each of the different states in this finite state machine will cause a different action to be taken. There are 4 directions, green and yellow lights. If we select the north direction to be green, the next state will be yellow. When this state is over, we will choose the next direction to be green, and so on through the entire state. The value shown above in the diagram determines how the states change. Each arrow indicates that the first value is for TG and the next value is for TA, and these values will be displayed in the transition table.
+
+## Transition Table
+
+![Transition Table](/images/Transition-Table.png)
+
+The finite state has 8 states equal to 2^3 so the table will have 3 Q's state denoted by Q0, Q1, and Q2. Each one of them will have 2 input TG and TA. The state will change to the next state by the inputs. Therefore, we need to implement D flip flop for all the current states Which it will be 3 D's flip flops. The Transition Table for D value is equal to the output, meaning that D0 is the same as Q0 after the clock transition. The implement for D is by an 8x1 Multiplexer.
 
 
 ## Grading Factors
@@ -43,5 +49,11 @@ Monday 29 / 7 / 1444 H, *20 Feb. 2023*
 ## Logic Expression
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
+![T ff Counter](/images/T-ff-Counter.png)
+
+![4bit register](/images/4bit-register.png)
+
+![Traffic Light Controller](/images/Traffic-Light-Controller.png)
+
+![Traffic light](/images/main.png)
 
