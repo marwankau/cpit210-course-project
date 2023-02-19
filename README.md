@@ -105,7 +105,7 @@ Each selection will activate only one operation and disable the other two operat
   - ---------------- +
   - 0001101 (This equivalent to 13 Decimal)
   ## Enable
-  ![Calculator, Enable](/images/adder/Fn7i2.png)
+  ![Calculator, Enable](/images/Fn7i2.png)
   
   
 ### **Subtraction**
