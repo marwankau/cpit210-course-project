@@ -58,7 +58,7 @@ The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
 
 -	1 3-bit Splitter receives current D Flip-Flops state.
 
--	4 2-bit Splitters receive the output of 3-bit Decoder.
+-	4 2-bit Splitters receive the output of 3X8 bit Decoder.
 
 -	3 Multiplexers: receive sources, and each one has a Select identifies which input becomes output. Each Select receives a bit from 3-bit Splitter.
 
@@ -66,11 +66,11 @@ The cycle should be from North (N) -> East (E) -> South (S) -> West (W).
 
 -	1 Clock: direct impulses to the counter and D Flip-Flops.
 
--	1 3X8-Bit Decoder: receives the destination from 3-bit Splitter, then, direct the output to the Splitter of 2-Bit Decoder.
+-	1 3X8-Bit Decoder: receives the destination from 3-bit Splitter, then, direct the output to the Splitter of 2X4 Bit Decoder.
 
 -	4 2X4-Bit Decoder: receives the destination from 2-bit Splitter, then, direct the output to LEDs.
 
--	12 LEDs: receive the output from 2-Bit Decoder and display it on the LED.
+-	12 LEDs: receive the output from 2X4 Bit Decoder and display it on the LED.
 
 
 ### CIRCUIT EXPLANATION
