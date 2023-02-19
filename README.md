@@ -1,65 +1,63 @@
-# CPIT210 Course Project
-Introduction about your project, describe the problem, and your solution. Project truth tables, expressions, k-maps and any related task must included here. Also project documentation must included.
+# Calculator Project:
 
-In this project students should work in groups of 3 to implement a fully functioning sequential circuit. This sequential circuit should work as a Buffer, a competition circuit, or 4-way light circuit depending on the student's choice. The idea of the three projects will be explained in the lab. To design the circuit, Logisim should be used. Students should submit their software implementation and the report here. 
-
+### Introduction:
+.
 ## Group Members
-[comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
+
 - [Baraa Majed Algomlas](https://github.com/Techiewicky)
 - [Faisal Alzahrani](https://github.com/fsalzhrane)
 - [Salman Balahwal](https://github.com/SalmanBalahwal)
 
-[comment]: <> (Students should include the contribution percentage of each group member.)
-[comment]: <> (Example:)
+
 ### Contribution:
 - Baraa Majed Algomlas 30%
 - Faisal Alzahrani 40%
 - Salman Balahwal 30%
 
-## Calculator Project:
 
-.
-#### Problem Statement:
+### Problem Statement:
 
 
 
 .
-#### Half Adder:
+### Half Adder:
 
 
 
 .
-#### Full Adder using combined Half-Adder:
+### Full Adder using combined Half-Adder:
 
 
 
 .
-#### 8-bit parallel binary Adder:
+### 8-bit parallel binary Adder:
 
 
 
 .
-#### 8-bit parallel binary Subtractor:
+### 8-bit parallel binary Subtractor:
+
+Subtraction can be represented as adding a positive number to a negative number, for example: 4–2 = 4 + (-2) 
+the real question is, how do we represent a negative number in binary?
+One of the most efficient ways is to use 2’s complement which basically is to invert the added value and add 1 to the total.  
+The way we will represent that in the Subtraction component we re-used the 8-bit adder the only difference is that the circuit inverts the B inputs and sets the carry input to 1.
+As you can see, we added an enable button to control the circuit and to add 1 to the carry.
+
+#### Components: 
+- 8-Bit Adder
+- Not gate
+- Buffer
+- Pin
+
+### Multiplier:
+
+
+##### Multiplier Helper:
 
 
 
 .
-#### 8-bit Multiplier:
+## Final Circuit Design:
 
-
-
-.
-#### Multiplier Helper:
-
-
-
-.
-#### Final Circuit Design:
-
-
-
-.
-## The Full Project Image
-
-![Our Awsome Project ](Full project.png)
+![Our Project](https://github.com/Techiewicky/cpit210-course-project/blob/main/Full%20project.png)
 
