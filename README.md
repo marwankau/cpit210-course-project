@@ -57,9 +57,7 @@ We used it to implement logical conjunction. So to check if the TA counter which
 ### Splitter
 We have many wires going into one gate or plexer etc. In such cases you we want to combine them in one bundle or saperate them. In order to do this we used splitters which allow us to combine many wires together or split the bundle to separate wires. We saperated the wires going as inputs into the AND gate from TA counter. By doing that we turned the current value of the counter to binary, also from the three D-flip flops to Muxs and Decoder. We combined the wires from the decoder to another splitter to sperate them into different decoders (S,W,E,N) based on what value was inputed into the decoder.
 
-
-
-
+##
 
 ## Brief Overview
 
@@ -71,7 +69,7 @@ Before we explain everything thoroughly, let’s highlight the major phases in o
 
 ##
 
-## What problem we could face?
+### What problem we could face?
 **- If we want to increase or decrease the time of a phase:**
 You'd have to increase or decrease the Date Bits of it's counter. An example is the green light phase, we would have to increase the Data Bits of the TG counter to more than 4 Data bits or less based on what is preferred. The yellow light phase is set to a certen time and is dependent on the green light phase. When TG counter is done the yellow light phase starts. Since the TA is connected to an AND GATE which waits until it reaches it's full length of 15 to output 1 which means the end of yellow light phase.
 
