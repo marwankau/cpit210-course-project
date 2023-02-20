@@ -26,18 +26,24 @@
 ### Half Adder:
 Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
+#### Half Adder Circuit:
 
-.
+![Our Project](Images/Half%20Adder.png)
+
 ### Full Adder using combined Half-Adder:
 
 
+#### Full Adder Circuit:
 
-.
+![Our Project](Images/Full%20Adder.png.png)
+
 ### 8-bit parallel binary Adder:
 
 
 
-.
+#### 8-bit Adder Circuit:
+
+![Our Project](Images/8-Bit%20Adder.png)
 
 ## Subtraction
 
@@ -56,14 +62,16 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 - Pin
 #### Subtractor Circuit:
 
-![Our Project](https://github.com/Techiewicky/cpit210-course-project/blob/main/Subtractor.png)
+![Our Project](Images/Subtractor.png)
 
 
 ## Multiplication
 
 ### Multiplier Helper:
 
-.
+#### Multiplier Helper Circuit:
+
+![Our Project](Images/Multiplier%20helper.png)
 
 ### Full Multiplier:
 
@@ -79,14 +87,14 @@ To do so we need to use the multiplier helper many times….
 - 8-bit parallel binary Adder
 
 
-![8x8Multiplier](https://user-images.githubusercontent.com/123291119/220085516-1511d46b-f8e9-4208-94b3-b9f9424500ea.png)
+![8x8Multiplier](Images/Full%20Multiplier.png)
 
 
 
 
 ## Final Circuit Design:
 
-![Our Project](https://github.com/Techiewicky/cpit210-course-project/blob/main/Full%20project.png)
+![Our Project](Images/Full%20project.png)
 
 #### Explanation:
 
