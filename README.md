@@ -28,14 +28,16 @@ Half Adder has two inputs, and it has two outputs which are the sum and carry. F
 
 ### Half Adder Circuit:
 
-![Our Project](Images/Half%20Adder.png)
+![Our Project](Images/Half%20Adder.png)  ![HA truth table](https://user-images.githubusercontent.com/123291119/220117773-2d6be0d8-8602-4781-a88f-67df0e6c03b8.png)
+
 
 ### Full Adder using combined Half-Adder:
 
 
 ### Full Adder Circuit:
 
-![Our Project](Images/Full%20Adder.png)
+![Our Project](Images/Full%20Adder.png)  ![FA truth table](https://user-images.githubusercontent.com/123291119/220117911-e0846cbb-6dab-4a3d-82f5-2b85172af45d.png)
+
 
 ### 8-bit parallel binary Adder:
 
