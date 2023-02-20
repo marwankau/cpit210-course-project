@@ -71,7 +71,7 @@ We have many wires going into one gate or plexer etc. In such cases you we want 
 
 ##
 
-### Brief Overview
+## Brief Overview
 
 As we have 3 lights for a 4-way traffic light, each way has 3 states. Either green, yellow, or red. the red will be explained later since it depends on being the values 0. As for green and yellow. Before we dig deeper. Since we have 4 traffic lights, that means each traffic light has 2 states (other than red). thus, we have 8 states (Q) for all traffic lights. We named each traffic light according to cardinal directions. Meaning north as N, west as W, east as E, south as S. 
 
