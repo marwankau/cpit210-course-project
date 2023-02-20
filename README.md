@@ -81,30 +81,21 @@ Each selection will activate only one operation and disable the other two operat
 ## Our Explanation 
 ### **Addition**
    #### Function:
-   The function of the adder circuit ,  adder two variable to have a value of adder , also we have a (Multiplier and subtraction circuits) to work together as a calculator . 
+   The function of the adder circuit is to add two variables ( A and B) 8 
+bits each. It integrated in the final combination with two other 
+circuits (Addition and subtraction circuits) to work together as a 
+calculator.
   #### Components:
-  - 8-bit binary adder
-  - Controlled buffer
-  #### adder:
--  The 8x8 bits adder circuit consist of the following:
-- Two variable A and B is what we will use to get a value .
-- The value will be in 8 bit .
-- We have AND a gates take A and B in the circuits .
+  1. Half Adder
+  2. Full Adders (consists of two half adders)
+  3. OR gate
   #### How it works:
-  First : There are two input A and B both has 8 bit .
-  Second : The 8 bit in A will Be adder with 8 bit in B variable .
-  Third : every bit will adder with a bit in second variable is the same place of bit . 
-  Fourth :  repeat step 2 and 3 for two variable until we get a final result . 
-  #### Example for illustration:
-  A: 0001010 (Decimal =10)
-  B: 0000011 (Decimal = 3)
-  - we have A and B , The A have value of 10 And B have value of 3 ,  We need to do adder circuit . 
-  - All variable have 7 bit we will adder the first bit with the first bit in a second variable .
-  - when we take the bit there will be in the circuit after they leave the answer will be ready and the answer show in output .
-  - the cin input we use it as a ground to complete the circuit .
-  - ---------------- +
-  - 0001101 (This equivalent to 13 Decimal)
-  ## Enable
+  • Three inputs A and B (both has 8 bits) along with Carry in are 
+applied to the Full Adder,
+  • The Full Adder output is SUM and Carry out.
+  • 8 Full Adders are connected together to generate summation of 
+the two 8 bits inputs (A and B) plus carryout
+  ## full adder
   ![Calculator, Enable](/images/Fn7i2.png)
   
   
