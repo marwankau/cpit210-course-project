@@ -24,7 +24,11 @@ Multiplication(8-Bit Multiplier), Final Circuit.
 ## Addition
 
 ### Half Adder:
-Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
+Why do we use Half Adder?
+- Half Adder is used to add two single-digit binary numbers.
+
+
+Half Adder has two inputs, sum and carry. The Half Adder is built by using the XOR gate and the And gate. It has two outputs the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
 #### Components: 
 - XOR gate
