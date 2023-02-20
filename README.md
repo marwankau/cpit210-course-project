@@ -12,9 +12,9 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- Ahmed 35%
-- Fahad 35%
-- Ali 30%
+- Arif 33.3%
+- Faisal 33.3%
+- Abdullah 33.3%
 
 ## Circuit Project topics:
 
