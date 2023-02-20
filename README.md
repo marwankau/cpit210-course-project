@@ -12,7 +12,7 @@ In this project students should work in groups of 3 to implement a fully functio
 [comment]: <> (Students should include the contribution percentage of each group member.)
 [comment]: <> (Example:)
 ### Contribution:
-- ABDULMOHSEN 35%
+- Abdulmohsen 35%
 - Khaled 35%
 - Abdulrahman 30%
 
