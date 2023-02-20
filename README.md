@@ -209,27 +209,26 @@ because 0 AND 1 = 0
 After finishing the multiplier helper our main problem is that the multiplier helper does 8 by 1 bit only so the main goal here is to expand this concept to a full 8
 by 8 bit multiplication circuit allowing us to multiply two 8 bit binary numbers
 
-First we used multiplier helpers and connected them with the inputs from A and B the idea here is to multiply the selected bit in B with all bits in A.
+First we used multiplier helpers and connected each one of them with the inputs 8-bit in A with 1-bit in B, the idea here is to multiply the selected bit in B with all
+bits in A and the multiplier helper will generate to us 8 bit as a result.
 
-ex: A=11101010 B=1  
+ex: A=11101010 B=1 
 
 equal: 11101010
 
-Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper to apply addition on the multiplication outputs and
-proceed to do so with all the rest A*bi outputs.
-
-example of 4*4 bit:
-
-![4x4 Bit](Images/4%20by%204%20bit.gif)
-
-
-then we took 1 bit from every binary adder output to connect them in the end with the (lo) output and the rest of the last binary adder bits went to the (hi) output
+Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper(A*bi) to apply addition on those 2 outputs and
+on the rest we proceed to use multiple binary adders that will take as input: 1 (A*bi) and 1 output of the previous binary adder.
+The important thing that we need to take 1 bit from every binary adder output to connect them in the end with the (lo) output, until we reach the last 8-bit binary
+adder we will take 1 bit as usual to the (lo) output but the rest will go to the (hi) output.
 
 So we continued this until we ended up using 8 multiplier helpers and 7 binary adders until we reached 8 input from B with 8 output on (lo) and (hi) to show all the
 answer bits without an overflow 
 
 At the end we needed an enable button for the circuit to choose either to show the output or not.
 
+And here a similar simple example of 4 by 4 bit:
+
+![4x4 Bit](Images/4%20by%204%20bit.gif)
 
 #### Components:
 - Multiplier Helper (A*bi)
