@@ -1,7 +1,8 @@
 # Calculator Project:
 
 ### Introduction:
-.
+In This Project we will be covering how to make an 8-Bit Calculator in Logisim capable of functioning all the standard arithmetic operations: addition, subtraction, multiplication from the scratch by using the basic logic gates (AND, OR, XOR, NOT gates, Buffer).
+
 ## Group Members
 
 - [Baraa Majed Algomlas](https://github.com/Techiewicky)
@@ -12,17 +13,14 @@
 ### Contribution:
 
 - Salman Balahwal 30%
+
 Addition(half Adder, Full Adder, 8-Bit Adder).
 - Baraa Majed Algomlas 30%
+
  Subtraction(8-Bit Parallel Binary Subtractor), Multiplication(Multiplier Helper).
 - Faisal Alzahrani 40%
+
 Multiplication(8-Bit Parallel Binary Multiplier), Final Circuit.
-
-## Problem Statement:
-
-
-
-.
 
 ## Addition
 
