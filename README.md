@@ -26,9 +26,37 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 
 
 ## description 
-### first part-arif
+### first part-Arif
 
-### second part-abdullah
+#### " Arif " 
+
+- The project was divided into three parts, and I will explain my part in a simple way and support it with some illustrations.
+
+- At first I have configured 3 counters in my circuit and each circuit performs a different function than the other, let's see the function of each counter..
+
+1- write counter: This counter tells us what the referenced address is in the RAM
+2- item counter: This counter performs a very important function which is to tell us what address we are going to write to when we are writing.
+3-read counter: This counter will tell us what address we will be reading.
+
+- Then I will add a multiplexer that is connected to the RAM and contains two inputs one of them connected in write counter and the other one in read counter and one output, which is connected to the RAM.
+
+-The D Flip Flop is by far the most important of all the clocked flip-flops. By adding an inverter (NOT gate) between the Set and Reset inputs, the S and R inputs become complements of each other ensuring that the two inputs S and R are never equal (0 or 1) to each other at the same time allowing us to control the toggle action of the flip-flop using one single D (Data) input.
+
+-Also we have write button that are connected to an input of D Flip Flop, In Addtion read button in the side the same thing.
+
+- In general, this is all about the first part of the project.
+
+![Picture shown ](https://h.top4top.io/p_26079ui5z1.jpeg)
+![Picture shown 2 ](https://g.top4top.io/p_26072h2j61.png)
+
+
+
+
+
+
+
+
+### second part-Abdullah
 
 ### third part-faisal
 And now the last part, we have added an nand gate and connect it with the above
