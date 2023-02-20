@@ -129,7 +129,12 @@ Cout=1
 
 
 ### 8-bit parallel binary Adder:
-The main purpose of 8-bit binary Adder is to add two eight bits binary with each other. I use A and B as the eight bits and it is connected with a splitter. The reason for the splitter is to take one input and return eight outputs. Also, there is an eight Full Adder each Full Adder is connected to one A and one B, and it’s also connected by Cin. In the output, there will be eight sum and one Cout. The sum will be connected to a splitter. The purpose of the splitter is to take input of eight sum and return one sum.  For example, if A=00000110 and B=00000101 sum=00001011.
+The main purpose of 8-bit binary Adder is to add two eight bits binary with each other. I use A and B as the eight bits and it is connected with a splitter. The reason for the splitter is to take one input and return eight outputs. Also, there is an eight Full Adder each Full Adder is connected to one A and one B, and it’s also connected by Cin. In the output, there will be eight sum and one Cout. The sum will be connected to a splitter. The purpose of the splitter is to take input of eight sum and return one sum.  
+
+For example:
+- A=00000110 + B=00000101
+- Sum=00001011
+
 
 #### Components: 
 - Full Adder
