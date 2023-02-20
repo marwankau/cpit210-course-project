@@ -57,9 +57,9 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 
 #### Components: 
 - 8-Bit Adder
-- Not gate
+- Not Gate
 - Buffer
-- Pin
+
 #### Subtractor Circuit:
 
 ![Our Project](Images/Subtractor.png)
@@ -68,6 +68,46 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 ## Multiplication
 
 ### Multiplier Helper:
+
+Firstly, when we want to implement the 8-Bit Multiplication Circuit we will use a lot of space, and also, we can’t just multiply 8x8 once,
+
+So In order to do it we need to understand how does Binary multiplication works.
+
+In the case of a binary operation, we deal with only two digits, 0 and 1.
+
+the only possible multiplication operations scenarios are:
+
+0 × 0 = 0
+
+0 × 1 = 0
+
+1 × 0 = 0
+
+1 × 1 = 1
+
+If we take close look, we will notice that we can use an AND gate for this, 
+but we can’t just multiply 8x8 we need to take it apart, in order to do that we will use the multiplier helper.
+The purpose of the multiplier helper is to multiply one bit by 8-Bits partially Then add them one by one using the 8-bit adder.
+Let’s say we have A8xB8:
+
+first we will calculate A8xB1 by multiplier helper
+
+then we will calculate A8xB2 by multiplier helper 
+
+then we add them together using 8-bit adder and so on until we reach A8xB8 … 
+For example: 
+
+A = 10110110
+
+B = 10010110
+
+A8xB1 = 10110110x0 = 00000000
+
+because 0 AND 1 = 0
+
+#### Components: 
+- AND Gate
+- Splitter
 
 #### Multiplier Helper Circuit:
 
