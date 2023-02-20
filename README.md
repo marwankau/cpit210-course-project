@@ -79,6 +79,8 @@ Each selection will activate only one operation and disable the other two operat
 
 
 ## Our Explanation 
+### Problem Statment 
+Learn how to build 8-bit calculator to perform three arithmetic operation addition, subtraction, and multiplication of two variables of 8-bit each using logic gates and plexers. Three circuit were designed to perform the three operation and finally connect them together as one circuit with decoder to select one operation at a time.
 ### **Addition**
    #### Function:
    The function of the adder circuit is to add two variables ( A and B) 8 
