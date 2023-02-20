@@ -54,9 +54,9 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 
 
 
-### second part-Abdullah
+### second section "Abdullah" 
 
-### third part-faisal
+### third section "Faisal" 
 And now the last part, we have added an nand gate and connect it with the above
  nand and also connect it with an and in the start of the circ , we also added an 
 and gate and connect it with the  two nands that we have, and we added a not 
