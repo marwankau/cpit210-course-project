@@ -161,7 +161,9 @@ Finally: make summation for the above 8 multiplication results.
 ![Calculator, Binary multiplications](/images/calculator/multiplication.png)
 
 These steps are performed in the logic circuit by applying two inputs to AND gate representing Ai and Bi, the first digit of the product result in each step of multiplication process is connected directly to the final output port of the multiplication circuit (by-passing the Adder). By the end of the multiplication process, the total number will be 8 digits which are named Lo Output.
+
 The initial carry in is considered to be zero. The the subsequent carry out of each step is connected to the next step. By the end of the multiplication process, the total number will be 8 lines which are named Hi Output.
+
 In order to enable/disable the output of the multiplier, two controlled buffer gates are connected to the Lo and Hi outputs. The controlled buffer gate is three-state buffer, it works as a switch to switch ON or OFF the output based on the control signal (enable or disable).
 
 ## Enable
@@ -174,7 +176,10 @@ In order to enable/disable the output of the multiplier, two controlled buffer g
 
 
 
+### Final Circuit explanation
+The final circuit is a combination of the three individual circuit of addition, subtract, and multiplication. We used 2x4 decoder to enable the circuit that we want to operate and disable the other two circuit. When the input of the decoder is "00" the addition circuit will be enabled and perform addition for the two variables (A+B). When the input is "01" the subtraction circuit will operate and subtract "B" from "A". When the input is "10" the multiplication circuit will work and multiply A by B.
 
+A multiplexers was added to the circuit before the Lo(output) just to make sure we are getting the result from the right circuit. Another multiplexer is used to fromat the Hi(output). Without using the last multiplexer, the circuit will run into some errors. Ground signal was made for the additional and subtraction circuits to work.
 
 ### Selected Topic
 1. Calculator
