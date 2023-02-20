@@ -1,4 +1,5 @@
-# Our solution
+# CALCULATOR
+## Our solution
 This circuit is used to perform three arithmetic operations Addition, Subtraction, and Multiplication of two numbers with 8-bits , Implementation contains design of 1-bit full adder and 8-bit parallel binary adder combined of 1-bit full adder, 8-bit Subtraction, and 8-bit Multiplier implemented by using 1-bit full adder
 
 ## Group Members
@@ -14,7 +15,7 @@ This circuit is used to perform three arithmetic operations Addition, Subtractio
 - Faris 33%
 - Abdulelah 33%
 
-# CALCULATOR
+
 
 
 ### 1-bit full adder 
