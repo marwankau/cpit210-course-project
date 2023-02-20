@@ -93,11 +93,13 @@ calculator.
   3. OR gate
   #### How it works:
   • Three inputs A and B (both has 8 bits) along with Carry in are 
-applied to the Full Adder,
+applied to the Full Adder.
+
   • The Full Adder output is SUM and Carry out.
+  
   • 8 Full Adders are connected together to generate summation of 
 the two 8 bits inputs (A and B) plus carryout
-  ## full adder
+  ## Full adder
   ![Calculator, Full-Adder](/images/calculator/Full-Adder.png)
   ## 8-Bits Parallel Binary Adder 
   ![Calculator, 8-Bits-Parallel-Binary-Adder](/images/calculator/8-Bits-Parallel-Binary-Adder.png)
@@ -168,7 +170,9 @@ In order to enable/disable the output of the multiplier, two controlled buffer g
 
 ## Enable
 ![Calculator, Enable](/images/calculator/Enable.png)
-## Multiplier Circuit Diagram
+## 8x1 Multiplier
+![Calculator, 8x1 Multiplier](/images/calculator/8x1-Multiplier.png)
+## 8x8 Multiplier Circuit Diagram
 ![Calculator, Binary multiplications circuit](/images/calculator/Multiplication-circuit.png)
 
 
