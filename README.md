@@ -59,11 +59,11 @@ We started connecting some of the AND gats here, specifically the middle AND GAT
 
 
 ### third section "Faisal" 
-And now the last part, we have added an nand gate and connect it with the above
- nand and also connect it with an and in the start of the circ , we also added an 
-and gate and connect it with the  two nands that we have, and we added a not 
-gate from the down nand and connect It with an and that is under the  second  d flip flop,
-and from the third d flip flop we connect it with the middle and , now 
+And now the last part, we have added an NAND gate and connect it with the above
+ nand and also connect it with an AND gate in the start of the circuit , we also added an 
+AND gate and connect it with the  two NANDs that we have, and we added a NOT 
+gate from the down NAND and connect It with an AND gate that is under (Q2) d flip flop,
+and from the (Q3) d flip flop we connect it with the middle AND gate , now 
 every thing is good we just have to add the ram and connect the address with the 
 multiplixer and connect the ‘sel’ with the last OR gate and connect the id with the 
 multiplixer and connect the ‘cir’ with the clear and finally we connect the ram 
