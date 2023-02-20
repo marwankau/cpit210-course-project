@@ -113,6 +113,7 @@ The result will be (00001100)
 ## Logic Expression - calculater_circuit
 Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
 
-![Our Awsome Project logic expression calculater_circuit](https://user-images.githubusercontent.com/123293486/219744083-ba5e0230-4e8d-44d2-8db3-dbfb538a8519.png)
+![Our Awsome Project logic expression calculater_circuit]
 
+![calculator](https://user-images.githubusercontent.com/123293486/220192003-17bd712d-d6a9-4baa-b055-e8d8b6e9f8cc.png)
 
