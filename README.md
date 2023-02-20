@@ -26,14 +26,14 @@
 ### Half Adder:
 Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
-#### Half Adder Circuit:
+### Half Adder Circuit:
 
 ![Our Project](Images/Half%20Adder.png)
 
 ### Full Adder using combined Half-Adder:
 
 
-#### Full Adder Circuit:
+### Full Adder Circuit:
 
 ![Our Project](Images/Full%20Adder.png)
 
@@ -41,37 +41,49 @@ Half Adder has two inputs, and it has two outputs which are the sum and carry. F
 
 
 
-#### 8-bit Adder Circuit:
+### 8-bit Adder Circuit:
 
 ![Our Project](Images/8-Bit%20Adder.png)
 
 ## Subtraction
+<br>
 
 ### 8-bit parallel binary Subtractor:
 
-Subtraction can be represented as adding a positive number to a negative number, for example: 4–2 = 4 + (-2) 
+<br>
+
+Subtraction can be represented as adding a positive number to a negative number,
+
+for example: 4–2 = 4 + (-2) 
+
 the real question is, how do we represent a negative number in binary?
+
 One of the most efficient ways is to use 2’s complement which basically is to invert the added value and add 1 to the total.  
 The way we will represent that in the Subtraction component we re-used the 8-bit adder the only difference is that the circuit inverts the B inputs and sets the carry input to 1.
+
 As you can see, we added an enable button to control the circuit and to add 1 to the carry.
 
-#### Components: 
+### Components: 
 - 8-Bit Adder
 - Not Gate
 - Buffer
+<br>
+<br>
 
-#### Subtractor Circuit:
+### Subtractor Circuit:
+
+<br>
 
 ![Our Project](Images/Subtractor.png)
 
+<br>
 
 ## Multiplication
+<br>
 
 ### Multiplier Helper:
-
-Firstly, when we want to implement the 8-Bit Multiplication Circuit we will use a lot of space, and also, we can’t just multiply 8x8 once,
-
-So In order to do it we need to understand how does Binary multiplication works.
+<br>
+Firstly, when we want to implement the 8-Bit Multiplication Circuit we will use a lot of space, and also, we can’t just multiply 8x8 once, So In order to do it we need to understand how does Binary multiplication works.
 
 In the case of a binary operation, we deal with only two digits, 0 and 1.
 
@@ -86,32 +98,41 @@ the only possible multiplication operations scenarios are:
 1 × 1 = 1
 
 If we take close look, we will notice that we can use an AND gate for this, 
-but we can’t just multiply 8x8 we need to take it apart, in order to do that we will use the multiplier helper.
+but we can’t just multiply 8x8 we need to take it apart.
+
+In order to do that we will use the multiplier helper.
+
 The purpose of the multiplier helper is to multiply one bit by 8-Bits partially Then add them one by one using the 8-bit adder.
 Let’s say we have A8xB8:
+<br>
+First we will calculate A8xB1 by multiplier helper
 
-first we will calculate A8xB1 by multiplier helper
+Then we will calculate A8xB2 by multiplier helper 
 
-then we will calculate A8xB2 by multiplier helper 
+Then we add them together using 8-bit adder and so on until we reach A8xB8 … 
 
-then we add them together using 8-bit adder and so on until we reach A8xB8 … 
 For example: 
 
 A = 10110110
 
 B = 10010110
 
-A8xB1 = 10110110x0 = 00000000
+A8xB1 = 10110110 x 0 = 00000000
 
 because 0 AND 1 = 0
 
-#### Components: 
+### Components: 
 - AND Gate
 - Splitter
+<br>
+<br>
 
-#### Multiplier Helper Circuit:
+### Multiplier Helper Circuit:
+<br>
 
 ![Our Project](Images/Multiplier%20helper.png)
+<br>
+<br>
 
 ### Full Multiplier:
 
@@ -122,19 +143,25 @@ To do so we need to use the multiplier helper many times….
 .
 .
 
-#### Components:
+### Components:
 - Multiplier Helper
 - 8-bit parallel binary Adder
 
 
 ![8x8Multiplier](Images/Full%20Multiplier.png)
 
+<br>
+<br>
 
+## Final Circuit:
 
+<br>
 
-## Final Circuit Design:
+### Explanation:
+
+<br>
+
+### Final Circuit Design:
+<br>
 
 ![Our Project](Images/Full%20project.png)
-
-#### Explanation:
-
