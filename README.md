@@ -24,8 +24,27 @@ In this project students should work in groups of 3 to implement a fully functio
 #### Problem Statement
 This circuit solves the reading and writing to buffer. For example: If we have input 4, we want to write it, buffer works like memory and stores it there when we click the write button. In case when we want to read from the buffer, by pressing read button, it starts reading from the first entry sored in the buffer. Buffer is nothing but a temporary memory. In addition, we can clear the contents from the buffer. Students are asked to design, and implement the required circuit.
 
-###
-#### 
+
+## description 
+### first part-arif
+
+### second part-abdullah
+
+### third part-faisal
+And now the last part, we have added an nand gate and connect it with the above
+ nand and also connect it with an and in the start of the circ , we also added an 
+and gate and connect it with the  two nands that we have, and we added a not 
+gate from the down nand and connect It with an and that is under the  second  d flip flop,
+and from the third d flip flop we connect it with the middle and , now 
+every thing is good we just have to add the ram and connect the address with the 
+multiplixer and connect the ‘sel’ with the last OR gate and connect the id with the 
+multiplixer and connect the ‘cir’ with the clear and finally we connect the ram 
+with the last AND gate, last thing we have to do is adding the 4 data inputs and 
+connect them with a splitter and connect it to the ram, after we finish that we will 
+add the hex digit display and connect it with the ram
+
+We know that there are some mistakes in our circuit but I think 90% of it is right ,
+we have tried every thing we can do to make the circuit right but we ran out of time due to the exams and other projects 
 
 
 
