@@ -44,8 +44,8 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 
 - In general, this is all about the first part of the project.
 
-![Picture shown ](https://h.top4top.io/p_26079ui5z1.jpeg)
-![Picture shown 2 ](https://g.top4top.io/p_26072h2j61.png)
+![Picture shown ](https://h.top4top.io/p_2607tdnqd1.jpeg)
+![Picture shown 2 ](https://d.top4top.io/p_2607s7y211.jpeg)
 
 
 
