@@ -72,11 +72,10 @@ We also removed an extra AND GATE (under Q0 D Flip-Flop) for the moment.
 ### third section "Faisal" 
 And now the last part, we have added an NAND gate and connect it with the above
  nand and also connect it with an AND gate in the start of the circuit , we also added an 
-AND gate and connect it with the  two NANDs that we have
-![Picture shown 1 ](https://h.top4top.io/p_2607n5ec01.jpeg)
- and we added a NOT gate from the down NAND and connect It with an AND gate that is under (Q2) d flip flop,
-and from the (Q3) d flip flop we connect it with the middle AND gate , now 
-every thing is good we just have to add the ram and connect the address with the 
+AND gate and connect it with the  two NANDs that we have, and we added a NOT gate from the down NAND and connect It with an AND gate that is under (Q2) d flip flop,
+and from the (Q3) d flip flop we connect it with the middle AND gate 
+![Picture shown 1 ](https://i.top4top.io/p_2607glccb2.jpeg)
+now every thing is good we just have to add the ram and connect the address with the 
 multiplixer and connect the ‘sel’ with the last OR gate and connect the id with the 
 multiplixer and connect the ‘cir’ with the clear and finally we connect the ram 
 with the last AND gate, last thing we have to do is adding the 4 data inputs and 
