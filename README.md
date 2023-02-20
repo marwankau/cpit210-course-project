@@ -77,7 +77,7 @@ You'd have to increase or decrease the Date Bits of it's counter. An example is 
 **- We could've implemented the circuit using counters and ROM:** 
 Which would have less cost and be much simpler, but since we don't have much experience with it we decided to go with what we have experience with.
 
-
+##
 
 
 ## Deadline
