@@ -216,8 +216,9 @@ ex: A=11101010 B=1
 
 equal: 11101010
 
-Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper (Axbi) to apply addition on those 2 outputs and
-on the rest we proceed to use multiple binary adders that will take as input: 1 (Axbi) and 1 output of the previous binary adder.
+Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper (Axbi) to apply addition on those 2 outputs. 
+
+And on the rest we proceed to use multiple binary adders that will take as input: 1 (Axbi) and 1 output of the previous binary adder.
 The important thing that we need to take 1 bit from every binary adder output to connect them in the end with the (lo) output, until we reach the last 8-bit binary
 adder we will take 1 bit as usual to the (lo) output but the rest will go to the (hi) output.
 
