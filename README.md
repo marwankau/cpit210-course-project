@@ -112,5 +112,7 @@ The result will be (00001100)
 
 ##  calculater_circuit
 
+this calculator takes two 8-bit inputes, 3 operations are available in the circuit,addition, subtraction, and multipliction. the decoder controles which operation will be apply by the enable input and tri-state, if the output is higher than 8-bit, the high output box will be used to display the result.we did not wire the cout of subtracter, no need for it.
+
 ![calculator](https://user-images.githubusercontent.com/123293486/220192003-17bd712d-d6a9-4baa-b055-e8d8b6e9f8cc.png)
 
