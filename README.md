@@ -251,7 +251,21 @@ And here a similar simple example of 4 by 4 bit:
 
 ## Final Circuit:
 
+Now after we reached this far all we need to do is to gather all the Addition, Subtraction Multiplication Circuits in one place to apply our calculator.
 
+Now we simply connect the three operations with A and B inputs and with the (lo) (hi) outputs, beside the subtraction only connect it to the first part of the 
+output(io).
+
+and in the end we don’t want all the operations to work at the same time so we added a Decoder to distinguish each circuit and operate one arithmetic operation at a
+time by selecting: 
+
+- (00) for Addition.
+- (01) for Subtraction. 
+- (10) for Multiplication.
+
+Then we connect some bits to (ground) and finally we connect enable from Multiplier and subtraction and Cout from addition to the decoder. 
+
+Eventually, We will have a fully functioning calculator.
 
 ### Final Circuit Design:
 
