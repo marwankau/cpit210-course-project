@@ -55,7 +55,17 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 
 ### second section "Abdullah"
 
+https://f.top4top.io/p_2607sbi2o1.png
+
 We started connecting some of the AND gats here, specifically the middle AND GATE (blue wires). We connected its output with combined wire between Q2 & Q3 D Flip-Flop. Then we took a wire from that connection and connected it to the first select line in the Multiplexer (S0). And we also connected bothe Q0 & Q1 together (from the output pin of Q0 to the data pin of Q1).
+
+https://j.top4top.io/p_2607eiwko1.png
+
+Then we added a NOT GATE at the bottom and connected it with the clear button as its input and we took the NOT GATE output as an input for the bottom  AND GATE then we connected the output of that AND GATE to Q2 D Flip-Flop (at the clear pin).
+
+Then we flipped the upper AND GATE to the left in order to connect its output with both of their QA of write counter & item counter.
+
+We also removed an extra AND GATE (under Q0 D Flip-Flop) for the moment.
 
 
 ### third section "Faisal" 
