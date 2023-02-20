@@ -95,13 +95,13 @@ In the case of a binary operation, we deal with only two digits, 0 and 1.
 
 the only possible multiplication operations scenarios are:
 
-0 × 0 = 0
+- 0 × 0 = 0
 
-0 × 1 = 0
+- 0 × 1 = 0
 
-1 × 0 = 0
+- 1 × 0 = 0
 
-1 × 1 = 1
+- 1 × 1 = 1
 
 If we take close look, we will notice that we can use an AND gate for this, 
 but we can’t just multiply 8x8 we need to take it apart.
@@ -111,11 +111,11 @@ In order to do that we will use the multiplier helper.
 The purpose of the multiplier helper is to multiply one bit by 8-Bits partially Then add them one by one using the 8-bit adder.
 Let’s say we have A8xB8:
 
-First we will calculate A8xB1 by multiplier helper
+- First we will calculate A8xB1 by multiplier helper
 
-Then we will calculate A8xB2 by multiplier helper 
+- Then we will calculate A8xB2 by multiplier helper 
 
-Then we add them together using 8-bit adder and so on until we reach A8xB8 … 
+- Then we add them together using 8-bit adder and so on until we reach A8xB8 … 
 
 For example: 
 
