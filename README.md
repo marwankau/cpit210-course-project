@@ -1,8 +1,5 @@
-# CPIT210 Course Project
-Introduction about your project, describe the problem, and your solution. Project truth tables, expressions, k-maps and any related task must included here. Also project documentation must included.
-
-In this project students should work in groups of 3 to implement a fully functioning sequential circuit. This sequential circuit should work as a Buffer, a competition circuit, or 4-way light circuit depending on the student's choice. The idea of the three projects will be explained in the lab. To design the circuit, Logisim should be used. Students should submit their software implementation and the report here. 
-
+# Project Introduction
+In this project, we will disccuss & implement a traffic light control. Using the concepts we learned in the course. The 4 way traffic light will be managed using the sequential circuits such as, Multiplexer, Flip Flip. In addition to the combinational circuits we learned. The implementation of the circuit is by Logisim.  
 ## Group Members
 [comment]: <> (each group memeber should write his first, middle and last name with link to his GitHub account)
 - [Turki Naif Alghamdi](https://github.com/TurkiNAlghamdii)
