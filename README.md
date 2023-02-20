@@ -161,6 +161,7 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 - 8-Bit Adder
 - Not Gate
 - Buffer
+- Splitter
 
 ### Subtractor Circuit:
 
