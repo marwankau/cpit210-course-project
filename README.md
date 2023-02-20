@@ -77,6 +77,37 @@ Then we added the two numbers and 1010000 + 1101100= 0111100 = 60
 
 ![subtracter](https://user-images.githubusercontent.com/123258988/220190937-9b3139dc-0d62-48e1-bf0f-300b2ea94c08.jpeg)
 
+## Multiplier:
+the Multiplier consists of an 1 bit adder and each 1 bit adder have 2 input so we have an 8x8 1-bit adder and every 2 inputs have a AND gate the number of AND gates are 64gates connected to the adders
+Let’s see how The Multiplication in binary works
+First must know the 0 and 1 multiplication
+0 × 0 = 0
+0 × 1 = 0
+1 × 0 = 0
+1 × 1 = 1  
+
+Now we will show the steps for the multiplication
+1)    First multiply all the b inputs in a input.
+2)    Secondly shift the b input 1 digit to the left and keep multiplying the inputs.
+3)    Repeat those steps until you finish the 8 digits.
+4)    After we finish the multiply now add a + b
+5)    You have the final output
+ 
+In this circuit, we have 7 adders and each sum of these adders goes down to the sum of the next adder until the last adder and sums and the cout reach the (high) part
+The sum of the first adder of each row goes to the (low) part.
+ 
+Let’s take some examples to make sure that we understand the concept
+If we have 2 input A and B and A (00011110) B(1)
+The output will be (00011110) and this called by an 8x1bit multiplier
+Another example A(00000110) and B(00000010)
+The result will be (00001100)
+
+
+
+![Multi_Cal](https://user-images.githubusercontent.com/123325830/220191230-4c7c0dc6-76bf-43f2-8cae-fb3914248bb0.jpeg)
+
+ 
+ 
 
 
 ## Logic Expression - calculater_circuit
