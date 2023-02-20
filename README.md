@@ -236,7 +236,8 @@ adder we will take 1 bit as usual to the (lo) output but the rest will go to the
 So we continued this until we ended up using 8 multiplier helpers and 7 binary adders until we reached 8 input from B with 8 output on (lo) and (hi) to show all the
 answer bits without an overflow 
 
-At the end we needed an enable button for the circuit to choose either to show the output or not.
+At the end we needed an enable button for the circuit to choose either to show the output or not and we will manage to do that by using a two bufferrs connected to the
+outputs.
 
 And here a similar simple example of 4 by 4 bit:
 
