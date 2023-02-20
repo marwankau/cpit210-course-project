@@ -41,7 +41,7 @@ Which would have less cost and be much simpler, but since we don't have much exp
 
 ##
 
-### Components Used
+## Components Used
 
 ### Counters
 Since we have 2 inputs named Tg and Ta, express the duration of the green light and the yellow light respectively.
@@ -90,7 +90,7 @@ Before we explain everything thoroughly, let’s highlight the major phases in o
 ## how will the input values of each multiplexer be determined ? 
 It will be determined based on Ta and Tg values that we stated above before. Then we connect the correct values (Q2,Q1,Q0) from D ffs after the previous procedures are conducted to 3x8 decoder. Since we have 4 way traffic light. Each one will have 2x4 decoder. 
 - Then every 2v4 decoder will be connected to 3x8 to display the traffic light. so after highlighting the major phases. We will know explain the operations step by step. The explanation will be in an example to make it on point with no theoretical talk. 
-### Real Implementation example
+#### Real Implementation 
 Let’s take the first situation as an example, the first situation where the traffic light is green. So we obtain The Qs from D FFs as follows 000 (in a splitter) that are being sent to the mentioned multiplexers. Then each multiplexer will be selecting the first ( 0 ) input placed in that multiplexer. Let’s take the values of each multiplexer in this situation. The value in the first multiplexer will be Tg, and Tg equals 0 according to the truth table we obtained from the project material. As for the second multiplexer the value is 0. And 0 for the third multiplexer. So, the values are 000. these values will be sent to Dffs respectively.  All of this is controlled in a time-period according to TgTa as shown in the circuit. This 000 as v indicates the light is green according to the project material. This v will be sent to the decoder to be displayed. The v will keep increasing according to the project material and every v will display a specific light. 
 
 
