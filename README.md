@@ -20,7 +20,7 @@ Addition(half Adder, Full Adder, 8-Bit Adder).
  Subtraction(8-Bit Parallel Binary Subtractor), Multiplication(Multiplier Helper).
 - Faisal Alzahrani 40%
 
-Multiplication(Multiplier), Final Circuit.
+Multiplication(8-Bit Multiplier), Final Circuit.
 
 ## Addition
 
