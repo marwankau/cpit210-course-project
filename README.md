@@ -119,12 +119,9 @@ because 0 AND 1 = 0
 
 ### Full Multiplier:
 
-Now after we preform 8 by 1 bit in the multiplier helper all we need to do now is to expand this concept to 8 by 8 bit circle allowing us to multiply two 8-bit binary numbers.
+After finishing the multiplier helper our main problem is that the multiplier helper does 8 by 1 bit only so the main goal here is to expand this concept to a full 8
+by 8 bit multiplication circuit allowing us to multiply two 8 bit binary numbers
 
-To do so we need to use the multiplier helper many times….
-.
-.
-.
 
 ### Components:
 - Multiplier Helper
