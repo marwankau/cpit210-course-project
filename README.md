@@ -178,4 +178,5 @@ And now we have a full functioning calculator
 
 ### Final Circuit Design:
 
-![Our Project](Images/Full%20project.png)
+![Multiplier](https://user-images.githubusercontent.com/123291119/220165481-cb96fbb7-c3fc-4181-8e8a-9f3c62c76162.png)
+
