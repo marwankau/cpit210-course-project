@@ -150,7 +150,7 @@ proceed to do so with all the rest A*bi outputs.
 
 example of 4*4 bit:
 
-![1_Syc1xYLYqIyirTePGa0SCQ (2)](https://user-images.githubusercontent.com/123291119/220131222-4bef9597-6608-4c35-b628-a6a5a7e08f67.gif)
+![4x4 Bit](Images/4%20by%204%20bit.gif)
 
 
 then we took 1 bit from every binary adder output to connect them in the end with the (lo) output and the rest of the last binary adder bits went to the (hi) output
@@ -178,5 +178,5 @@ And now we have a full functioning calculator
 
 ### Final Circuit Design:
 
-![Multiplier](https://user-images.githubusercontent.com/123291119/220165481-cb96fbb7-c3fc-4181-8e8a-9f3c62c76162.png)
+![Multiplier](Images/Final%20Circuit.png)
 
