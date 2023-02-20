@@ -64,9 +64,18 @@ If A = 01000011 which is 67 in decimal and B = 00101011 which is 43 in decimal t
 
 ![8-bit_adder_calculator](https://user-images.githubusercontent.com/123293486/220189524-00aefbd0-2bd8-4072-942b-3173aaa77eb9.png)
 
-[comment]: <> (Choose one of the following, your choice need to be accepted by Instructor)
+## Subtraction:
+The subtraction contains two numbers; the numbers are input a and input b we take these two numbers and subtract them from each other by the 8-bit adder .
+We take the number of a and take the number of b after taking the two’s complement then we add 1 to the new result b after that added a to the new result of b and then we have the output of the subtraction.it has to be that, input a greater than b.
+For example, if we have a = 80 decimal in binary = 1010000 and we want to subtract  with b = 20 in decimal in binary = 0010100
+ 
+We take the number of b and the two’s complement, we get 11010111
+After that added 1 to the two’s complement of b and we get 1101100
+Then we added the two numbers and 1010000 + 1101100= 0111100 = 60
 
 
+
+![subtracter](https://user-images.githubusercontent.com/123258988/220190937-9b3139dc-0d62-48e1-bf0f-300b2ea94c08.jpeg)
 
 
 
