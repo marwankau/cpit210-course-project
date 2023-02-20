@@ -107,16 +107,16 @@ the two 8 bits inputs (A and B) plus carryout
   
 ### **Subtraction**
   #### Function:
-   The main function of this circuit is to subtract the values in the second variable from the first variable.
+   The main function of this circuit is to perform subtraction of two variables of 8-bit each (A-B).
   #### Components:
    - 8-bit binary subtractor
    - Controlled buffer
   #### Subtractor:
-   The circuit subtract two number A-B . There is two input “A” & “B”. the value in “B” is subtracted from the from the value in “A”. The output is controlled by a controlling buffer or what we call it “Enable”. 
+   The circuit subtract two 8-bits binary numbers. There is two inputs "A" & "B". The value of "B" is subtracted from "A". The circuit output is controlled by a controlling buffer to enable or disable the circuit.
    #### How it works:
-   1. we make 2nd compliment on “B”. which means converting 1 to 0 and vice versa. 
-  2. add 1 to B’ to become b’’.
-  3. Now we add “A” with B’’ and we will get the result of the subtraction.
+   1. We perform 2nd compliment on (B). which means converting 1 to 0 and vice versa. 
+  2. Add 1 to (B’) to become (b’’).
+  3. Now we add (A) with (B’’) and we will get the result of the subtraction.
   #### Example for illustration:
   - A: 1110010 (Decimal =114)
   - B: 1000101 (Decimal = 69)
