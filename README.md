@@ -42,7 +42,40 @@ Half Adder has two inputs, sum and carry. The Half Adder is built by using the X
 ![Our Project](Images/Half%20Adder.png)  
 
 ### Full Adder using combined Half-Adder:
-Full Adder has three inputs, which are value A, value B, and Cin. Also, it has two outputs they are the sum and carry. However, in Full Adder we use two Half Adder’s and one OR gate. For example, if the inputs are 1+1+0 the output will be 01 binary. The 0 for the sum and the 1 for carry.
+Full Adder has three inputs, which are value A, value B, and Cin. Also, it has two outputs they are the sum and carry. However, in Full Adder, we use two Half Adder and one OR gate. 
+
+As you can see in the truth table if all inputs are 0. The sum will be 0 and the cout will be 0.
+- For example:
+A=0 
+B=0
+Cin=0
+Sum=0 
+Cout=0
+
+In the truth table if one of the inputs is 1. The sum will be 1 and cout will be 0.
+- For example:
+A=1
+B=0
+Cin=0
+Sum=1
+Cout=0
+
+If two inputs are 1 and one input is 0. The output will be sum 0 and Cout 1.
+- For example:
+A=1
+B=1
+Cin=0
+Sum=0
+Cout=1
+
+Finally, if all inputs are 1. The sum will be 1 and the Cout will be 1.
+- For example:
+A=1
+B=1
+Cin=1
+Sum=1
+Cout=1
+
 
 #### Components: 
 - Half Adder 
