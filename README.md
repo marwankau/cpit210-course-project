@@ -68,6 +68,16 @@ Then we flipped the upper AND GATE to the left in order to connect its output wi
 
 We also removed an extra AND GATE (under Q0 D Flip-Flop) for the moment.
 
+![Picture shown ](https://g.top4top.io/p_2607avthv1.png)
+
+We added an OR GATE at the top with 1 input coming from the AND GATE and the other one from the wire/connection between Q0 + Q1 D flip-flop.
+
+We also added a NOT GATE under Q3 D flip-flop and its input is coming from both Q1 & Q3 R-pin and the output is going for both right-upper AND GATE & write counter J-pin.
+
+Also we added a NAND GATE after Q1 D flip-flop that gets its first input from Q1 Q-pin (output) and the second from that NOT GATE.
+
+NOTE: There are a lot of errors in this part and they will be corrected in the final part since we were building and testing connections in this part and placing most of the elements.
+
 
 ### third section "Faisal" 
 And now the last part, we have added an NAND gate and connect it with the above
