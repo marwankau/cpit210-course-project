@@ -140,7 +140,7 @@ At the end we needed an enable button for the circuit to choose either to show t
 
 
 ### Components:
-- Multiplier Helper
+- Multiplier Helper (A*bi)
 - 8-bit parallel binary Adder
 
 
