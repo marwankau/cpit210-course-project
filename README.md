@@ -24,6 +24,7 @@ In this project students should work in groups of 3 to implement a fully functio
 
 [comment]: <> (Choose one of the following, your choice need to be accepted by Instructor)
 
+##
 
 ### Traffic Light
 #### Problem Statement
