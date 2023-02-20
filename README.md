@@ -1,6 +1,7 @@
 # Calculator Project:
 
-### Introduction:
+
+## Introduction:
 In This Project we will be covering how to make an 8-Bit Calculator in Logisim capable of functioning all the standard arithmetic operations: addition, subtraction, multiplication from the scratch by using the basic logic gates (AND, OR, XOR, NOT gates, Buffer).
 
 ## Group Members
