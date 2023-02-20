@@ -71,7 +71,7 @@ Before we explain everything thoroughly, let’s highlight the major phases in o
 
 ##
 
-### What problem we could face?
+### What problem we faced/could face?
 **- If we want to increase or decrease the time of a phase:**
 You'd have to increase or decrease the Date Bits of it's counter. An example is the green light phase, we would have to increase the Data Bits of the TG counter to more than 4 Data bits or less based on what is preferred. The yellow light phase is set to a certen time and is dependent on the green light phase. When TG counter is done the yellow light phase starts. Since the TA is connected to an AND GATE which waits until it reaches it's full length of 15 to output 1 which means the end of yellow light phase.
 
