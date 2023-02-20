@@ -55,7 +55,8 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 
 ### second section "Abdullah"
 
-We started connecting some of the AND gats here, specifically the middle AND GATE (blue wires). We connected its output with combined wire between Q2 & Q3 D Flip-Flop. Then we took a wire from that connection and connected it to the first select line in the Multiplexer (S0).
+We started connecting some of the AND gats here, specifically the middle AND GATE (blue wires). We connected its output with combined wire between Q2 & Q3 D Flip-Flop. Then we took a wire from that connection and connected it to the first select line in the Multiplexer (S0). And we also connected bothe Q0 & Q1 together (from the output pin of Q0 to the data pin of Q1).
+
 
 ### third section "Faisal" 
 And now the last part, we have added an nand gate and connect it with the above
