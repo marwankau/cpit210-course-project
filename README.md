@@ -170,8 +170,6 @@ operations to work at the same time so we added a Decoder to distinguish each ci
 (01) for Subtraction and finally (10) for Multiplication and we connect enable from Multiplier and subtraction and Cout from addition to the decoder 
 And now we have a full functioning calculator
 
-<br>
-
 ### Final Circuit Design:
 
 ![Our Project](Images/Full%20project.png)
