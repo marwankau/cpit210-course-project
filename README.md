@@ -10,10 +10,13 @@
 
 
 ### Contribution:
-- Baraa Majed Algomlas 30%
-- Faisal Alzahrani 40%
-- Salman Balahwal 30%
 
+- Salman Balahwal 30%
+Addition(half Adder, Full Adder, 8-Bit Adder).
+- Baraa Majed Algomlas 30%
+ Subtraction(8-Bit Parallel Binary Subtractor), Multiplication(Multiplier Helper).
+- Faisal Alzahrani 40%
+Multiplication(8-Bit Parallel Binary Multiplier), Final Circuit.
 
 ## Problem Statement:
 
@@ -115,7 +118,7 @@ because 0 AND 1 = 0
 
 ![Our Project](Images/Multiplier%20helper.png)
 
-### Full Multiplier:
+### 8-Bit Parallel Binary Multiplier:
 
 After finishing the multiplier helper our main problem is that the multiplier helper does 8 by 1 bit only so the main goal here is to expand this concept to a full 8
 by 8 bit multiplication circuit allowing us to multiply two 8 bit binary numbers
