@@ -37,10 +37,11 @@ basically, what this circuit accomplishes is adding three 1-bit numbers together
 
 
 
-Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left.
+
+
+Now that we have a full adder, we can add multi-bit numbers together. We want to add two numbers that contain 8 bits, so we need eight full adders chained together, each square represents one full adder. The carry bit output of the adder on the right feeds into the carry bit input of the adder on the left. And how this process will be? for example a bit with value 1 comes from A and a bit with value 1comes from B, when they get into the full adder the sum will be 0 and the carry out will be 1, so the value will be 2 in binary 10,and then on the next full adder will get a carry in with value 1, and so on.
 
 Through this circuit, we can add two 8-bit numbers together. For example, adding 00000011 (number A) and 00001010 (number B) together.  As you can see from the output bits, the result is 00001101.
-
 ![Add circuit](https://user-images.githubusercontent.com/123273500/219878312-ac6a9a3f-47bb-45d1-a163-c35685f9e867.png)
 
 
