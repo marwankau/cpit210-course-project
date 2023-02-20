@@ -52,15 +52,18 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 
 ![Our Project](https://github.com/Techiewicky/cpit210-course-project/blob/main/Subtractor.png)
 
-### Multiplier:
+#### Multiplier Helper:
 
-
-##### Multiplier Helper:
 
 ##### 8*8 bits Multiplier:
+
+#### Components:
+- Multiplier Helper
+- 8-bit parallel binary Adder
 
 .
 ## Final Circuit Design:
 
 ![Our Project](https://github.com/Techiewicky/cpit210-course-project/blob/main/Full%20project.png)
 
+#Explanation:
