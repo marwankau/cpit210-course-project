@@ -27,21 +27,12 @@ Multiplication(8-Bit Multiplier), Final Circuit.
 ### Half Adder:
 Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
-### Components:
-- XOR gate
-- AND gate
-
 ### Half Adder Circuit:
 
 ![Our Project](Images/Half%20Adder.png)  ![HA truth table](https://user-images.githubusercontent.com/123291119/220117773-2d6be0d8-8602-4781-a88f-67df0e6c03b8.png)
 
 
 ### Full Adder using combined Half-Adder:
-Full Adder has three inputs, which are value A, value B, and Cin. Also, it has two outputs they are the sum and carry. However, in Full Adder we use two Half Adder’s and one OR gate. For example, if the inputs are 1+1+0 the output will be 01 binary. The 0 for the sum and the 1 for carry.
-
-### Components:
-- Half Adder
-- OR gate
 
 
 ### Full Adder Circuit:
@@ -50,12 +41,6 @@ Full Adder has three inputs, which are value A, value B, and Cin. Also, it has t
 
 
 ### 8-bit parallel binary Adder:
-The main purpose of 8-bit binary Adder is to add two eight bits binary with each other. I use A and B as the eight bits and it is connected with a splitter. The reason for the splitter is to take one input and return eight outputs. Also, there is an eight Full Adder each Full Adder is connected to one A and one B, and it’s also connected by Cin. In the output, there will be eight sum and one Cout. The sum will be connected to a splitter. The purpose of the splitter is to take input of eight sum and return one sum.  For example, if A=00000110 and B=00000101 sum=00001011.
-
-### Components: 
-- Full Adder
-- Splitter
-
 
 ![Our Project](Images/8-Bit%20Adder.png)
 
@@ -136,7 +121,6 @@ because 0 AND 1 = 0
 After finishing the multiplier helper our main problem is that the multiplier helper does 8 by 1 bit only so the main goal here is to expand this concept to a full 8
 by 8 bit multiplication circuit allowing us to multiply two 8 bit binary numbers
 
-
 First we used multiplier helpers and connected them with the inputs from A and B the idea here is to multiply the selected bit in B with all bits in A.
 
 ex: A=11101010 B=1  
@@ -144,8 +128,14 @@ ex: A=11101010 B=1
 equal: 11101010
 
 Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper to apply addition on the multiplication outputs and
-proceed to do so with all the rest A*bi outputs,then
-take 1 bit from every binary adder output to connect them in the end with the (lo) output and the rest of the last binary adder bits went to the (hi) output
+proceed to do so with all the rest A*bi outputs.
+
+example of 4*4 bit:
+
+![1_Syc1xYLYqIyirTePGa0SCQ (2)](https://user-images.githubusercontent.com/123291119/220131222-4bef9597-6608-4c35-b628-a6a5a7e08f67.gif)
+
+
+then we took 1 bit from every binary adder output to connect them in the end with the (lo) output and the rest of the last binary adder bits went to the (hi) output
 
 So we continued this until we ended up using 8 multiplier helpers and 7 binary adders until we reached 8 input from B with 8 output on (lo) and (hi) to show all the
 answer bits without an overflow 
