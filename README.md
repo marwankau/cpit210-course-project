@@ -46,11 +46,8 @@ Half Adder has two inputs, and it has two outputs which are the sum and carry. F
 ![Our Project](Images/8-Bit%20Adder.png)
 
 ## Subtraction
-<br>
-
 ### 8-bit parallel binary Subtractor:
 
-<br>
 
 Subtraction can be represented as adding a positive number to a negative number,
 
@@ -67,22 +64,14 @@ As you can see, we added an enable button to control the circuit and to add 1 to
 - 8-Bit Adder
 - Not Gate
 - Buffer
-<br>
-<br>
 
 ### Subtractor Circuit:
 
-<br>
-
 ![Our Project](Images/Subtractor.png)
 
-<br>
-
 ## Multiplication
-<br>
-
 ### Multiplier Helper:
-<br>
+
 Firstly, when we want to implement the 8-Bit Multiplication Circuit we will use a lot of space, and also, we can’t just multiply 8x8 once, So In order to do it we need to understand how does Binary multiplication works.
 
 In the case of a binary operation, we deal with only two digits, 0 and 1.
@@ -104,7 +93,7 @@ In order to do that we will use the multiplier helper.
 
 The purpose of the multiplier helper is to multiply one bit by 8-Bits partially Then add them one by one using the 8-bit adder.
 Let’s say we have A8xB8:
-<br>
+
 First we will calculate A8xB1 by multiplier helper
 
 Then we will calculate A8xB2 by multiplier helper 
@@ -124,15 +113,9 @@ because 0 AND 1 = 0
 ### Components: 
 - AND Gate
 - Splitter
-<br>
-<br>
-
 ### Multiplier Helper Circuit:
-<br>
 
 ![Our Project](Images/Multiplier%20helper.png)
-<br>
-<br>
 
 ### Full Multiplier:
 
@@ -150,18 +133,11 @@ To do so we need to use the multiplier helper many times….
 
 ![8x8Multiplier](Images/Full%20Multiplier.png)
 
-<br>
-<br>
-
 ## Final Circuit:
-
-<br>
-
 ### Explanation:
 
 <br>
 
 ### Final Circuit Design:
-<br>
 
 ![Our Project](Images/Full%20project.png)
