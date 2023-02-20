@@ -27,6 +27,10 @@ Multiplication(8-Bit Multiplier), Final Circuit.
 ### Half Adder:
 Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
+### Components:
+- XOR gate
+- AND gate
+
 ### Half Adder Circuit:
 
 ![Our Project](Images/Half%20Adder.png)  ![HA truth table](https://user-images.githubusercontent.com/123291119/220117773-2d6be0d8-8602-4781-a88f-67df0e6c03b8.png)
@@ -35,6 +39,11 @@ Half Adder has two inputs, and it has two outputs which are the sum and carry. F
 ### Full Adder using combined Half-Adder:
 Full Adder has three inputs, which are value A, value B, and Cin. Also, it has two outputs they are the sum and carry. However, in Full Adder we use two Half Adder’s and one OR gate. For example, if the inputs are 1+1+0 the output will be 01 binary. The 0 for the sum and the 1 for carry.
 
+### Components:
+- Half Adder
+- OR gate
+
+
 ### Full Adder Circuit:
 
 ![Our Project](Images/Full%20Adder.png)  ![FA truth table](https://user-images.githubusercontent.com/123291119/220117911-e0846cbb-6dab-4a3d-82f5-2b85172af45d.png)
@@ -42,6 +51,12 @@ Full Adder has three inputs, which are value A, value B, and Cin. Also, it has t
 
 ### 8-bit parallel binary Adder:
 The main purpose of 8-bit binary Adder is to add two eight bits binary with each other. I use A and B as the eight bits and it is connected with a splitter. The reason for the splitter is to take one input and return eight outputs. Also, there is an eight Full Adder each Full Adder is connected to one A and one B, and it’s also connected by Cin. In the output, there will be eight sum and one Cout. The sum will be connected to a splitter. The purpose of the splitter is to take input of eight sum and return one sum.  For example, if A=00000110 and B=00000101 sum=00001011.
+
+### Components: 
+- Full Adder
+- Splitter
+
+
 ![Our Project](Images/8-Bit%20Adder.png)
 
 ## Subtraction
