@@ -81,7 +81,7 @@ we have tried every thing we can do to make the circuit right but we ran out of 
 
 ## 
 ## Logic Expression
-Include exported image from Logisim of your project here. *(Screenshot is not accepted!)*
+"Final image of the project"
 
-![Our Awsome Project logic expression](/images/logic-expression.png)
+![Our Awsome Project logic expression](https://f.top4top.io/p_2607t0d0v1.jpeg)
 
