@@ -27,7 +27,7 @@ Multiplication(8-Bit Multiplier), Final Circuit.
 Why do we use Half Adder?
 - Half Adder is used to add two single-digit binary numbers.
 
-
+![Xor circule](Images/xorkmap.jpg) ![And circule](Images/Inkedandkmap1.jpg) 
 Half Adder has two inputs, sum and carry. The Half Adder is built by using the XOR gate and the And gate. It has two outputs the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
 #### Components: 
