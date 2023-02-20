@@ -124,10 +124,13 @@ by 8 bit multiplication circuit allowing us to multiply two 8 bit binary numbers
 
 
 First we used multiplier helpers and connected them with the inputs from A and B the idea here is to multiply the selected bit in B with all bits in A.
-ex: A=11101010 B=1   
+
+ex: A=11101010 B=1  
+
 equal: 11101010
 
-Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper to apply addition on the multiplication outputs, then
+Then we used 8-bit parallel binary adder to take the outputs that are coming from 2 different multiplier helper to apply addition on the multiplication outputs and
+proceed to do so with all the rest A*bi outputs,then
 take 1 bit from every binary adder output to connect them in the end with the (lo) output and the rest of the last binary adder bits went to the (hi) output
 
 
