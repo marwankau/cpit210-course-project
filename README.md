@@ -116,7 +116,7 @@ because 0 AND 1 = 0
 
 ![Our Project](Images/Multiplier%20helper.png)
 
-### 8-Bit Parallel Binary Multiplier:
+### 8-Bit Multiplier:
 
 After finishing the multiplier helper our main problem is that the multiplier helper does 8 by 1 bit only so the main goal here is to expand this concept to a full 8
 by 8 bit multiplication circuit allowing us to multiply two 8 bit binary numbers
