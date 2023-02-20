@@ -35,7 +35,7 @@ Half Adder has two inputs, and it has two outputs which are the sum and carry. F
 
 #### Full Adder Circuit:
 
-![Our Project](Images/Full%20Adder.png.png)
+![Our Project](Images/Full%20Adder.png)
 
 ### 8-bit parallel binary Adder:
 
