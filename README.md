@@ -27,7 +27,7 @@ Multiplication(8-Bit Multiplier), Final Circuit.
 ### Half Adder:
 Half Adder has two inputs, and it has two outputs which are the sum and carry. For example, if both inputs are 1 the output in sum will be 0 and the carry will be 1.
 
-### Components: 
+#### Components: 
 - XOR gate
 - AND gate
 
@@ -39,7 +39,7 @@ Half Adder has two inputs, and it has two outputs which are the sum and carry. F
 ### Full Adder using combined Half-Adder:
 Full Adder has three inputs, which are value A, value B, and Cin. Also, it has two outputs they are the sum and carry. However, in Full Adder we use two Half Adder’s and one OR gate. For example, if the inputs are 1+1+0 the output will be 01 binary. The 0 for the sum and the 1 for carry.
 
-### Components: 
+#### Components: 
 - Half Adder 
 - OR gate
 
@@ -51,7 +51,7 @@ Full Adder has three inputs, which are value A, value B, and Cin. Also, it has t
 ### 8-bit parallel binary Adder:
 The main purpose of 8-bit binary Adder is to add two eight bits binary with each other. I use A and B as the eight bits and it is connected with a splitter. The reason for the splitter is to take one input and return eight outputs. Also, there is an eight Full Adder each Full Adder is connected to one A and one B, and it’s also connected by Cin. In the output, there will be eight sum and one Cout. The sum will be connected to a splitter. The purpose of the splitter is to take input of eight sum and return one sum.  For example, if A=00000110 and B=00000101 sum=00001011.
 
-### Components: 
+#### Components: 
 - Full Adder
 - Splitter
 
@@ -72,7 +72,7 @@ The way we will represent that in the Subtraction component we re-used the 8-bit
 
 As you can see, we added an enable button to control the circuit and to add 1 to the carry.
 
-### Components: 
+#### Components: 
 - 8-Bit Adder
 - Not Gate
 - Buffer
@@ -122,7 +122,7 @@ A8xB1 = 10110110 x 0 = 00000000
 
 because 0 AND 1 = 0
 
-### Components: 
+#### Components: 
 - AND Gate
 - Splitter
 ### Multiplier Helper Circuit:
@@ -156,7 +156,7 @@ answer bits without an overflow
 At the end we needed an enable button for the circuit to choose either to show the output or not.
 
 
-### Components:
+#### Components:
 - Multiplier Helper (A*bi)
 - 8-bit parallel binary Adder
 
