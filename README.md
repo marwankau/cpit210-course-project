@@ -96,7 +96,9 @@ applied to the Full Adder,
   • 8 Full Adders are connected together to generate summation of 
 the two 8 bits inputs (A and B) plus carryout
   ## full adder
-  ![Calculator, Enable](/images/Fn7i2.png)
+  ![Calculator, Full-Adder](/images/Full-Adder.png)
+  ## 8-Bits Parallel Binary Adder 
+  ![Calculator, 8-Bits-Parallel-Binary-Adder](/images/8-Bits-Parallel-Binary-Adder.png)
   
   
 ### **Subtraction**
