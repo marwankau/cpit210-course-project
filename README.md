@@ -133,6 +133,11 @@ Then we used 8-bit parallel binary adder to take the outputs that are coming fro
 proceed to do so with all the rest A*bi outputs,then
 take 1 bit from every binary adder output to connect them in the end with the (lo) output and the rest of the last binary adder bits went to the (hi) output
 
+So we continued this until we ended up using 8 multiplier helpers and 7 binary adders until we reached 8 input from B with 8 output on (lo) and (hi) to show all the
+answer bits without an overflow 
+
+At the end we needed an enable button for the circuit to choose either to show the output or not.
+
 
 ### Components:
 - Multiplier Helper
