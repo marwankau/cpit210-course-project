@@ -33,34 +33,35 @@ Why do we use Half Adder?
 
 Half Adder has two inputs, sum and carry. The Half Adder is built by using the XOR gate and the And gate. It has two outputs the sum and carry. 
 
-As you can see in the truth table the sum is 0 if both inputs are the same. 
-- For example:
+As you can see in the truth table the sum is 0 if both inputs are the same.
 
-A=0, B=0
+For example:
 
-A+B=0+0=SUM=0
+- A=0, B=0
 
-A=1,B=0
+- A+B=0+0=SUM=0
 
-A+B=1+0=SUM=1
+- A=1,B=0
+
+- A+B=1+0=SUM=1
 
 Sum=A XOR B
 
 In the truth table the carry will be 0 if any of the inputs are 0.
 
-- For example:
+For example:
 
-A=0, B=1
+- A=0, B=1
 
-0 AND 1
+- 0 AND 1
 
-Carry=0
+- Carry=0
 
-A=1,B=1
+- A=1,B=1
 
-1 AND 1=Carry=1
+- 1 AND 1=Carry=1
 
-Carry= A AND B
+- Carry= A AND B
 
 #### Components: 
 - XOR gate
@@ -74,43 +75,47 @@ Carry= A AND B
 Full Adder has three inputs, which are value A, value B, and Cin. Also, it has two outputs they are the sum and carry. However, in Full Adder, we use two Half Adder and one OR gate. 
 
 As you can see in the truth table if all inputs are 0. The sum will be 0 and the cout will be 0.
-- For example:
 
-A=0,
+For example:
+
+- A=0,
 B=0,
-Cin=0
+ Cin=0
 
-Sum=0, 
+- Sum=0, 
 Cout=0
 
 In the truth table if one of the inputs is 1. The sum will be 1 and cout will be 0.
-- For example:
 
-A=1,
+For example:
+
+- A=1,
 B=0,
 Cin=0
 
-Sum=1,
+- Sum=1,
 Cout=0
 
 If two inputs are 1 and one input is 0. The output will be sum 0 and Cout 1.
-- For example:
 
-A=1,
+ For example:
+
+- A=1,
 B=1,
 Cin=0
 
-Sum=0,
+- Sum=0,
 Cout=1
 
 Finally, if all inputs are 1. The sum will be 1 and the Cout will be 1.
-- For example:
 
-A=1,
+For example:
+
+- A=1,
 B=1,
 Cin=1
 
-Sum=1,
+- Sum=1,
 Cout=1
 
 
