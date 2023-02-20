@@ -26,17 +26,15 @@ This circuit solves the reading and writing to buffer. For example: If we have i
 
 
 ## description 
-### first part-Arif
-
-#### " Arif " 
+### First section "Arif" 
 
 - The project was divided into three parts, and I will explain my part in a simple way and support it with some illustrations.
 
 - At first I have configured 3 counters in my circuit and each circuit performs a different function than the other, let's see the function of each counter..
 
-1- write counter: This counter tells us what the referenced address is in the RAM
-2- item counter: This counter performs a very important function which is to tell us what address we are going to write to when we are writing.
-3-read counter: This counter will tell us what address we will be reading.
+- write counter: This counter tells us what the referenced address is in the RAM
+- item counter: This counter performs a very important function which is to tell us what address we are going to write to when we are writing.
+-read counter: This counter will tell us what address we will be reading.
 
 - Then I will add a multiplexer that is connected to the RAM and contains two inputs one of them connected in write counter and the other one in read counter and one output, which is connected to the RAM.
 
